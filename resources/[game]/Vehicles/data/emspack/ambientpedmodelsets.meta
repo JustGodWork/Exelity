@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CAmbientModelSets>
+    <ModelSets>
+        <Item type="CAmbientModelSet">
+            <Name>MEDIC</Name>
+            <Models>
+                <Item>
+                    <Name>S_M_M_Paramedic_01</Name>
+                    <Variations type="CAmbientPedModelVariations">
+                        <CompRestrictions>
+                            <Item>
+                                <Component>PV_COMP_HAND</Component>
+                                <DrawableIndex value="1"/>
+                                <Restriction>CantUse</Restriction>
+                            </Item>
+                        </CompRestrictions>
+                        <PropRestrictions/>
+                        <LoadOut>LOADOUT_DEFAULT</LoadOut>
+                    </Variations>
+                    <Probability value="1.0"/>
+                </Item>
+                <Item>
+                    <Name>S_M_M_Paramedic_02</Name>
+                    <Variations type="CAmbientPedModelVariations">
+                        <CompRestrictions>
+                            <Item>
+                                <Component>PV_COMP_HAND</Component>
+                                <DrawableIndex value="1"/>
+                                <Restriction>CantUse</Restriction>
+                            </Item>
+                        </CompRestrictions>
+                        <PropRestrictions/>
+                        <LoadOut>LOADOUT_DEFAULT</LoadOut>
+                    </Variations>
+                    <Probability value="0.8"/>
+                </Item>
+                <!--
+                            <Item>
+                                <Name>S_F_Y_Paramedic_01</Name>
+                                <Variations type="CAmbientPedModelVariations">
+                                    <CompRestrictions>
+                                        <Item>
+                                            <Component>PV_COMP_HAND</Component>
+                                            <DrawableIndex value="1"/>
+                                            <Restriction>CantUse</Restriction>
+                                        </Item>
+                                    </CompRestrictions>
+                                    <PropRestrictions/>
+                                    <LoadOut>LOADOUT_UNARMED</LoadOut>
+                                </Variations>
+                                <Probability value="1.0"/>
+                            </Item>
+                            -->
+            </Models>
+        </Item>
+        <!--
+        <Item type="CAmbientModelSet">
+            <Name>MEDIC_COUNTRY</Name>
+            <Models>
+                <Item>
+                    <Name>S_M_M_Paramedic_01</Name>
+                    <Variations type="CAmbientPedModelVariations">
+                        <CompRestrictions>
+                            <Item>
+                                <Component>PV_COMP_HAND</Component>
+                                <DrawableIndex value="1"/>
+                                <Restriction>CantUse</Restriction>
+                            </Item>
+                        </CompRestrictions>
+                        <PropRestrictions/>
+                        <LoadOut>LOADOUT_UNARMED</LoadOut>
+                    </Variations>
+                    <Probability value="0.25"/>
+                </Item>
+                <Item>
+                    <Name>S_M_M_Paramedic_02</Name>
+                    <Variations type="CAmbientPedModelVariations">
+                        <CompRestrictions>
+                            <Item>
+                                <Component>PV_COMP_HAND</Component>
+                                <DrawableIndex value="1"/>
+                                <Restriction>CantUse</Restriction>
+                            </Item>
+                        </CompRestrictions>
+                        <PropRestrictions/>
+                        <LoadOut>LOADOUT_UNARMED</LoadOut>
+                    </Variations>
+                    <Probability value="1.0"/>
+                </Item>
+                <Item>
+                    <Name>S_F_Y_Paramedic_01</Name>
+                    <Variations type="CAmbientPedModelVariations">
+                        <CompRestrictions>
+                            <Item>
+                                <Component>PV_COMP_HAND</Component>
+                                <DrawableIndex value="1"/>
+                                <Restriction>CantUse</Restriction>
+                            </Item>
+                        </CompRestrictions>
+                        <PropRestrictions/>
+                        <LoadOut>LOADOUT_UNARMED</LoadOut>
+                    </Variations>
+                    <Probability value="0.8"/>
+                </Item>
+            </Models>
+        </Item>
+        -->
+        <Item type="CAmbientModelSet">
+            <Name>ODD_PATIENT</Name>
+            <Models>
+                <Item>
+                    <Name>a_m_o_acult_01</Name>
+                    <Variations type="CAmbientPedModelVariations">
+                        <CompRestrictions/>
+                        <PropRestrictions/>
+                        <LoadOut>LOADOUT_DONATION</LoadOut>
+                    </Variations>
+                    <Probability value="1.0"/>
+                </Item>
+                <Item>
+                    <Name>a_m_o_acult_02</Name>
+                    <Variations type="CAmbientPedModelVariations">
+                        <CompRestrictions/>
+                        <PropRestrictions/>
+                        <LoadOut>LOADOUT_DONATION</LoadOut>
+                    </Variations>
+                    <Probability value="1.0"/>
+                </Item>
+            </Models>
+        </Item>
+    </ModelSets>
+</CAmbientModelSets>

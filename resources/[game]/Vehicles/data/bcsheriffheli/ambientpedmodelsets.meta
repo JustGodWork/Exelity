@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CAmbientModelSets>
+  <ModelSets>
+    <Item type="CAmbientModelSet">
+      <Name>SHERIFF_BC</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_Bcsheriff_01</Name>
+          <Variations type="NULL" />
+          <Probability value="0.800000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_Bcsheriff_01</Name>
+          <Variations type="NULL" />
+          <Probability value="0.200000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>SHERIFF_SWAT_BC</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_Bcsheriffswat_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+  </ModelSets>
+</CAmbientModelSets>

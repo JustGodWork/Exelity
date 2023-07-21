@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CPedModelInfo__PersonalityDataList>
+    <MovementModeUnholsterData>
+        <Item>
+            <Name>UNHOLSTER_UNARMED</Name>
+            <UnholsterClips>
+                <Item>
+                    <Weapons>
+                        <Item>weapon_donation</Item>
+                    </Weapons>
+                    <Clip>unarmed_holster_unarmed</Clip>
+                </Item>
+            </UnholsterClips>
+        </Item>
+        <Item>
+            <Name>UNHOLSTER_2H_MELEE</Name>
+            <UnholsterClips>
+                <Item>
+                    <Weapons>
+                        <Item>weapon_donation</Item>
+                    </Weapons>
+                    <Clip>2h_melee_holster_unarmed</Clip>
+                </Item>
+            </UnholsterClips>
+        </Item>
+        <Item>
+            <Name>UNHOLSTER_1H</Name>
+            <UnholsterClips>
+                <Item>
+                    <Weapons>
+                        <Item>weapon_donation</Item>
+                    </Weapons>
+                    <Clip>1h_holster_unarmed</Clip>
+                </Item>
+            </UnholsterClips>
+        </Item>
+        <Item>
+            <Name>UNHOLSTER_2H</Name>
+            <UnholsterClips>
+                <Item>
+                    <Weapons>
+                        <Item>weapon_donation</Item>
+                    </Weapons>
+                    <Clip>2h_holster_unarmed</Clip>
+                </Item>
+            </UnholsterClips>
+        </Item>
+        <Item>
+            <Name>UNHOLSTER_MINIGUN</Name>
+            <UnholsterClips>
+                <Item>
+                    <Weapons>
+                        <Item>weapon_donation</Item>
+                    </Weapons>
+                    <Clip>mini_holster_2h_unarmed</Clip>
+                </Item>
+            </UnholsterClips>
+        </Item>
+        <Item>
+            <Name>UNHOLSTER_UNARMED_STEALTH</Name>
+            <UnholsterClips>
+                <Item>
+                    <Weapons>
+                        <Item>weapon_donation</Item>
+                    </Weapons>
+                    <Clip>unarmed_holster_unarmed</Clip>
+                </Item>
+            </UnholsterClips>
+        </Item>
+        <Item>
+            <Name>UNHOLSTER_2H_MELEE_STEALTH</Name>
+            <UnholsterClips>
+                <Item>
+                    <Weapons>
+                        <Item>weapon_donation</Item>
+                    </Weapons>
+                    <Clip>unarmed_holster_unarmed</Clip>
+                </Item>
+            </UnholsterClips>
+        </Item>
+        <Item>
+            <Name>UNHOLSTER_1H_STEALTH</Name>
+            <UnholsterClips>
+                <Item>
+                    <Weapons>
+                        <Item>weapon_donation</Item>
+                    </Weapons>
+                    <Clip>1h_holster_unarmed</Clip>
+                </Item>
+            </UnholsterClips>
+        </Item>
+        <Item>
+            <Name>UNHOLSTER_2H_STEALTH</Name>
+            <UnholsterClips>
+                <Item>
+                    <Weapons>
+                        <Item>weapon_donation</Item>
+                    </Weapons>
+                    <Clip>2h_holster_unarmed</Clip>
+                </Item>
+            </UnholsterClips>
+        </Item>
+    </MovementModeUnholsterData>
+    <MovementModes>
+        <Item>
+            <Name>DEFAULT_ACTION</Name>
+            <MovementModes>
+                <Item>
+                    <Item>
+                        <Weapons>
+                            <Item>weapon_donation</Item>
+                        </Weapons>
+                        <ClipSets>
+                            <Item>
+                                <MovementClipSetId>MOVE_ACTION@P_M_ZERO@UNARMED@CORE</MovementClipSetId>
+                                <WeaponClipSetId/>
+                                <WeaponClipFilterId/>
+                                <UpperBodyShadowExpressionEnabled value="false"/>
+                                <UpperBodyFeatheredLeanEnabled value="false"/>
+                                <UseWeaponAnimsForGrip value="true"/>
+                                <UseLeftHandIk value="false"/>
+                                <IdleTransitionBlendOutTime value="0.50000000"/>
+                                <IdleTransitions>
+                                    <Item>MOVE_ACTION@GENERIC@TRANS@UNARMED</Item>
+                                </IdleTransitions>
+                                <UnholsterClipSetId>MOVE_ACTION@P_M_ZERO@HOLSTER</UnholsterClipSetId>
+                                <UnholsterClipData>UNHOLSTER_UNARMED</UnholsterClipData>
+                            </Item>
+                        </ClipSets>
+                    </Item>
+                    <Item>
+                        <Weapons>
+                            <Item>weapon_donation</Item>
+                        </Weapons>
+                        <ClipSets>
+                            <Item>
+                                <MovementClipSetId>MOVE_ACTION@P_M_ZERO@UNARMED@CORE</MovementClipSetId>
+                                <WeaponClipSetId>MOVE_ACTION@GENERIC@2H_MELEE_WEAPON@UPPER</WeaponClipSetId>
+                                <WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+                                <UpperBodyShadowExpressionEnabled value="true"/>
+                                <UpperBodyFeatheredLeanEnabled value="false"/>
+                                <UseWeaponAnimsForGrip value="false"/>
+                                <UseLeftHandIk value="true"/>
+                                <IdleTransitionBlendOutTime value="0.50000000"/>
+                                <IdleTransitions>
+                                    <Item>MOVE_ACTION@GENERIC@TRANS@2H_MELEE</Item>
+                                </IdleTransitions>
+                                <UnholsterClipSetId>MOVE_ACTION@P_M_ZERO@HOLSTER</UnholsterClipSetId>
+                                <UnholsterClipData>UNHOLSTER_2H_MELEE</UnholsterClipData>
+                            </Item>
+                        </ClipSets>
+                    </Item>
+                </Item>
+            </MovementModes>
+        </Item>
+        <Item>
+            <Name>MP_FEMALE_ACTION</Name>
+            <MovementModes>
+                <Item>
+                    <Item>
+                        <Weapons>
+                            <Item>weapon_donation</Item>
+                        </Weapons>
+                        <ClipSets>
+                            <Item>
+                                <MovementClipSetId>MOVE_ACTION@MP_FEMALE@UNARMED@CORE</MovementClipSetId>
+                                <WeaponClipSetId/>
+                                <WeaponClipFilterId/>
+                                <UpperBodyShadowExpressionEnabled value="false"/>
+                                <UpperBodyFeatheredLeanEnabled value="false"/>
+                                <UseWeaponAnimsForGrip value="true"/>
+                                <UseLeftHandIk value="false"/>
+                                <IdleTransitionBlendOutTime value="0.50000000"/>
+                                <IdleTransitions>
+                                    <Item>MOVE_ACTION@MP_FEMALE@UNARMED@TRANS@</Item>
+                                </IdleTransitions>
+                                <UnholsterClipSetId>MOVE_ACTION@P_M_ZERO@HOLSTER</UnholsterClipSetId>
+                                <UnholsterClipData>UNHOLSTER_UNARMED</UnholsterClipData>
+                            </Item>
+                        </ClipSets>
+                    </Item>
+                    <Item>
+                        <Weapons>
+                            <Item>weapon_donation</Item>
+                        </Weapons>
+                        <ClipSets>
+                            <Item>
+                                <MovementClipSetId>MOVE_STEALTH@P_M_ZERO@UNARMED@CORE</MovementClipSetId>
+                                <WeaponClipSetId>WEAPONS@MELEE_STEALTH_1H</WeaponClipSetId>
+                                <WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+                                <UpperBodyShadowExpressionEnabled value="true"/>
+                                <UpperBodyFeatheredLeanEnabled value="false"/>
+                                <UseWeaponAnimsForGrip value="false"/>
+                                <UseLeftHandIk value="false"/>
+                                <IdleTransitionBlendOutTime value="0.50000000"/>
+                                <IdleTransitions>
+                                    <Item>MOVE_STEALTH@MP_FEMALE@UNARMED@TRANS</Item>
+                                </IdleTransitions>
+                                <UnholsterClipSetId>MOVE_STEALTH@P_M_ZERO@HOLSTER</UnholsterClipSetId>
+                                <UnholsterClipData>UNHOLSTER_UNARMED_STEALTH</UnholsterClipData>
+                            </Item>
+                        </ClipSets>
+                    </Item>
+                </Item>
+            </MovementModes>
+        </Item>
+        <Item>
+            <Name>MICHAEL_ACTION</Name>
+            <MovementModes>
+                <Item>
+                    <Item>
+                        <Weapons>
+                            <Item>weapon_donation</Item>
+                        </Weapons>
+                        <ClipSets>
+                            <Item>
+                                <MovementClipSetId>MOVE_ACTION@P_M_ZERO@UNARMED@CORE</MovementClipSetId>
+                                <WeaponClipSetId/>
+                                <WeaponClipFilterId/>
+                                <UpperBodyShadowExpressionEnabled value="false"/>
+                                <UpperBodyFeatheredLeanEnabled value="false"/>
+                                <UseWeaponAnimsForGrip value="true"/>
+                                <UseLeftHandIk value="false"/>
+                                <IdleTransitionBlendOutTime value="0.50000000"/>
+                                <IdleTransitions>
+                                    <Item>MOVE_ACTION@P_M_ZERO@UNARMED@TRANS@A</Item>
+                                </IdleTransitions>
+                                <UnholsterClipSetId>MOVE_ACTION@P_M_ZERO@HOLSTER</UnholsterClipSetId>
+                                <UnholsterClipData>UNHOLSTER_UNARMED</UnholsterClipData>
+                            </Item>
+                        </ClipSets>
+                    </Item>
+                    <Item>
+                        <Weapons>
+                            <Item>weapon_donation</Item>
+                        </Weapons>
+                        <ClipSets>
+                            <Item>
+                                <MovementClipSetId>MOVE_STEALTH@P_M_ZERO@UNARMED@CORE</MovementClipSetId>
+                                <WeaponClipSetId>WEAPONS@MELEE_STEALTH_1H</WeaponClipSetId>
+                                <WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+                                <UpperBodyShadowExpressionEnabled value="true"/>
+                                <UpperBodyFeatheredLeanEnabled value="false"/>
+                                <UseWeaponAnimsForGrip value="false"/>
+                                <UseLeftHandIk value="false"/>
+                                <IdleTransitionBlendOutTime value="0.50000000"/>
+                                <IdleTransitions>
+                                    <Item>MOVE_STEALTH@P_M_ZERO@UNARMED@TRANS@A</Item>
+                                </IdleTransitions>
+                                <UnholsterClipSetId>MOVE_STEALTH@P_M_ZERO@HOLSTER</UnholsterClipSetId>
+                                <UnholsterClipData>UNHOLSTER_UNARMED_STEALTH</UnholsterClipData>
+                            </Item>
+                        </ClipSets>
+                    </Item>
+                </Item>
+            </MovementModes>
+        </Item>
+        <Item>
+            <Name>FRANKLIN_ACTION</Name>
+            <MovementModes>
+                <Item>
+                    <Item>
+                        <Weapons>
+                            <Item>weapon_donation</Item>
+                        </Weapons>
+                        <ClipSets>
+                            <Item>
+                                <MovementClipSetId>move_action@p_m_one@unarmed@core</MovementClipSetId>
+                                <WeaponClipSetId/>
+                                <WeaponClipFilterId/>
+                                <UpperBodyShadowExpressionEnabled value="false"/>
+                                <UpperBodyFeatheredLeanEnabled value="false"/>
+                                <UseWeaponAnimsForGrip value="true"/>
+                                <UseLeftHandIk value="false"/>
+                                <IdleTransitions>
+                                    <Item>MOVE_ACTION@P_M_ONE@UNARMED@TRANS@A</Item>
+                                </IdleTransitions>
+                                <IdleTransitionBlendOutTime value="0.500000"/>
+                                <UnholsterClipSetId>anim@melee@colbaton@holster</UnholsterClipSetId>
+                                <UnholsterClipData ref="UNHOLSTER_UNARMED"/>
+                            </Item>
+                        </ClipSets>
+                    </Item>
+                    <Item>
+                        <Weapons>
+                            <Item>weapon_donation</Item>
+                        </Weapons>
+                        <ClipSets>
+                            <Item>
+                                <MovementClipSetId>move_stealth@p_m_one@unarmed@core</MovementClipSetId>
+                                <WeaponClipSetId>Wpn_Switchblade_Stealth</WeaponClipSetId>
+                                <WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+                                <UpperBodyShadowExpressionEnabled value="true"/>
+                                <UpperBodyFeatheredLeanEnabled value="false"/>
+                                <UseWeaponAnimsForGrip value="false"/>
+                                <UseLeftHandIk value="false"/>
+                                <IdleTransitions>
+                                    <Item>move_stealth@p_m_one@unarmed@trans@a</Item>
+                                </IdleTransitions>
+                                <IdleTransitionBlendOutTime value="0.500000"/>
+                                <UnholsterClipSetId>anim@melee@colbaton@holster</UnholsterClipSetId>
+                                <UnholsterClipData ref="UNHOLSTER_UNARMED_STEALTH"/>
+                            </Item>
+                        </ClipSets>
+                    </Item>
+                </Item>
+            </MovementModes>
+        </Item>
+        <Item>
+            <Name>TREVOR_ACTION</Name>
+            <MovementModes>
+                <Item>
+                    <Item>
+                        <Weapons>
+                            <Item>weapon_donation</Item>
+                        </Weapons>
+                        <ClipSets>
+                            <Item>
+                                <MovementClipSetId>move_action@p_m_two@unarmed@core</MovementClipSetId>
+                                <WeaponClipSetId/>
+                                <WeaponClipFilterId/>
+                                <UpperBodyShadowExpressionEnabled value="false"/>
+                                <UpperBodyFeatheredLeanEnabled value="false"/>
+                                <UseWeaponAnimsForGrip value="true"/>
+                                <UseLeftHandIk value="false"/>
+                                <IdleTransitions>
+                                    <Item>MOVE_ACTION@P_M_TWO@UNARMED@TRANS@A</Item>
+                                </IdleTransitions>
+                                <IdleTransitionBlendOutTime value="0.500000"/>
+                                <UnholsterClipSetId>anim@melee@colbaton@holster</UnholsterClipSetId>
+                                <UnholsterClipData ref="UNHOLSTER_UNARMED"/>
+                            </Item>
+                        </ClipSets>
+                    </Item>
+                    <Item>
+                        <Weapons>
+                            <Item>weapon_donation</Item>
+                        </Weapons>
+                        <ClipSets>
+                            <Item>
+                                <MovementClipSetId>move_stealth@p_m_two@unarmed@core</MovementClipSetId>
+                                <WeaponClipSetId>Wpn_Switchblade_Stealth</WeaponClipSetId>
+                                <WeaponClipFilterId>UpperbodyAndIk_filter</WeaponClipFilterId>
+                                <UpperBodyShadowExpressionEnabled value="true"/>
+                                <UpperBodyFeatheredLeanEnabled value="false"/>
+                                <UseWeaponAnimsForGrip value="false"/>
+                                <UseLeftHandIk value="false"/>
+                                <IdleTransitions>
+                                    <Item>move_stealth@p_m_two@unarmed@trans@a</Item>
+                                </IdleTransitions>
+                                <IdleTransitionBlendOutTime value="0.500000"/>
+                                <UnholsterClipSetId>anim@melee@colbaton@holster</UnholsterClipSetId>
+                                <UnholsterClipData ref="UNHOLSTER_UNARMED_STEALTH"/>
+                            </Item>
+                        </ClipSets>
+                    </Item>
+                </Item>
+            </MovementModes>
+        </Item>
+    </MovementModes>
+    <PedPersonalities>
+        <!-- medic -->
+        <Item>
+            <PersonalityName>MedicMale</PersonalityName>
+            <DefaultWeaponLoadout>LOADOUT_MEDIC</DefaultWeaponLoadout>
+            <Bravery>AVERAGE</Bravery>
+            <AgitatedPersonality>default</AgitatedPersonality>
+            <Criminality>Law_Abiding</Criminality>
+            <AgitationTriggers>default</AgitationTriggers>
+            <HealthConfigHash>AVERAGE</HealthConfigHash>
+            <WeaponAnimations>
+                <Item>default</Item>
+            </WeaponAnimations>
+            <AmbientAudio>default</AmbientAudio>
+            <WitnessPersonality>default</WitnessPersonality>
+            <Agility>
+                <Flags>AF_CAN_DIVE</Flags>
+                <MovementCostModifier value="1.00000000"/>
+            </Agility>
+            <IsMale value="true"/>
+            <IsHuman value="true"/>
+            <ShouldRewardMoneyOnDeath value="true"/>
+            <IsGang value="false"/>
+            <IsSecurity value="false"/>
+            <IsWeird value="false"/>
+            <IsDangerousAnimal value="false"/>
+            <CausesRumbleWhenCollidesWithPlayer value="false"/>
+            <AllowSlowCruisingWithMusic value="false"/>
+            <AllowRoadCrossHurryOnLightChange value="false"/>
+            <VehicleTypes/>
+            <AttackStrengthMin value="1.10000000"/>
+            <AttackStrengthMax value="1.25000000"/>
+            <StaminaEfficiency value="1.10000000"/>
+            <ArmourEfficiency value="1.00000000"/>
+            <HealthRegenEfficiency value="1.20000000"/>
+            <ExplosiveDamageMod value="1.00000000"/>
+            <HandGunDamageMod value="2.00000000"/>
+            <RifleDamageMod value="1.50000000"/>
+            <SmgDamageMod value="1.50000000"/>
+            <PopulationFleeMod value="1.00000000"/>
+            <HotwireRate value="1.00000000"/>
+            <MotivationMin value="0"/>
+            <MotivationMax value="10"/>
+            <DrivingAbilityMin value="8"/>
+            <DrivingAbilityMax value="10"/>
+            <DrivingAggressivenessMin value="0"/>
+            <DrivingAggressivenessMax value="9"/>
+            <Affluence>AFF_AVERAGE</Affluence>
+            <TechSavvy>TS_HIGH</TechSavvy>
+            <MovementModes/>
+            <WeaponAnimsFPSIdle>FirstPerson</WeaponAnimsFPSIdle>
+            <WeaponAnimsFPSRNG>FirstPersonRNG</WeaponAnimsFPSRNG>
+            <WeaponAnimsFPSLT>FirstPersonAiming</WeaponAnimsFPSLT>
+            <WeaponAnimsFPSScope>FirstPersonScope</WeaponAnimsFPSScope>
+        </Item>
+        <Item>
+            <PersonalityName>MedicFemale</PersonalityName>
+            <DefaultWeaponLoadout>LOADOUT_MEDIC</DefaultWeaponLoadout>
+            <Bravery>AVERAGE_FEMALE</Bravery>
+            <AgitatedPersonality>default</AgitatedPersonality>
+            <Criminality>Law_Abiding</Criminality>
+            <AgitationTriggers>default</AgitationTriggers>
+            <HealthConfigHash>AVERAGE</HealthConfigHash>
+            <WeaponAnimations>
+                <Item>Female</Item>
+            </WeaponAnimations>
+            <AmbientAudio>default</AmbientAudio>
+            <WitnessPersonality>default</WitnessPersonality>
+            <Agility>
+                <Flags>AF_CAN_DIVE</Flags>
+                <MovementCostModifier value="1.00000000"/>
+            </Agility>
+            <IsMale value="false"/>
+            <IsHuman value="true"/>
+            <ShouldRewardMoneyOnDeath value="true"/>
+            <IsGang value="false"/>
+            <IsSecurity value="false"/>
+            <IsWeird value="false"/>
+            <IsDangerousAnimal value="false"/>
+            <CausesRumbleWhenCollidesWithPlayer value="false"/>
+            <AllowSlowCruisingWithMusic value="false"/>
+            <AllowRoadCrossHurryOnLightChange value="true"/>
+            <VehicleTypes/>
+            <AttackStrengthMin value="0.75000000"/>
+            <AttackStrengthMax value="1.00000000"/>
+            <StaminaEfficiency value="1.10000000"/>
+            <ArmourEfficiency value="1.00000000"/>
+            <HealthRegenEfficiency value="1.20000000"/>
+            <ExplosiveDamageMod value="1.00000000"/>
+            <HandGunDamageMod value="2.00000000"/>
+            <RifleDamageMod value="1.50000000"/>
+            <SmgDamageMod value="1.50000000"/>
+            <PopulationFleeMod value="1.00000000"/>
+            <HotwireRate value="1.00000000"/>
+            <MotivationMin value="0"/>
+            <MotivationMax value="10"/>
+            <DrivingAbilityMin value="8"/>
+            <DrivingAbilityMax value="10"/>
+            <DrivingAggressivenessMin value="0"/>
+            <DrivingAggressivenessMax value="9"/>
+            <Affluence>AFF_AVERAGE</Affluence>
+            <TechSavvy>TS_HIGH</TechSavvy>
+            <MovementModes/>
+            <WeaponAnimsFPSIdle>FirstPerson</WeaponAnimsFPSIdle>
+            <WeaponAnimsFPSRNG>FirstPersonRNG</WeaponAnimsFPSRNG>
+            <WeaponAnimsFPSLT>FirstPersonAiming</WeaponAnimsFPSLT>
+            <WeaponAnimsFPSScope>FirstPersonScope</WeaponAnimsFPSScope>
+        </Item>
+    </PedPersonalities>
+</CPedModelInfo__PersonalityDataList>

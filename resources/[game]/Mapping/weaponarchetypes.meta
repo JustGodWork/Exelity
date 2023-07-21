@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+    <Item>
+      <modelName>W_AR_WAFFE</modelName>
+      <txdName>W_AR_WAFFE</txdName>
+      <ptfxAssetName>core</ptfxAssetName>
+      <lodDist value="500"/>
+    </Item>
+    <Item>
+      <modelName>W_ME_PENETRATOR</modelName>
+      <txdName>W_ME_PENETRATOR</txdName>
+      <ptfxAssetName>NULL</ptfxAssetName>
+      <lodDist value="500"/>
+    </Item>
+		<Item>
+		  <modelName>W_ME_INFINITYGAUNTLET</modelName>
+		  <txdName>W_ME_INFINITYGAUNTLET</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="500"/>
+		</Item>
+    <Item>
+		  <modelName>W_MG_FLAMETHROWER</modelName>
+		  <txdName>W_MG_FLAMETHROWER</txdName>
+		  <ptfxAssetName>core</ptfxAssetName>
+		  <lodDist value="500"/>
+		</Item>
+    <Item>
+      <modelName>W_EX_NOTE</modelName>
+      <txdName>W_EX_NOTE</txdName>
+      <ptfxAssetName>NULL</ptfxAssetName>
+      <lodDist value="500"/>
+    </Item>
+    <Item>
+      <modelName>W_AM_THROWINGAXE</modelName>
+      <txdName>W_AM_THROWINGAXE</txdName>
+      <ptfxAssetName>NULL</ptfxAssetName>
+      <lodDist value="500"/>
+    </Item>
+    <Item>
+      <modelName>W_AM_CHAIR</modelName>
+      <txdName>W_AM_CHAIR</txdName>
+      <ptfxAssetName>NULL</ptfxAssetName>
+      <lodDist value="500"/>
+    </Item>
+    <Item>
+      <modelName>W_AM_THROWINGSPEAR</modelName>
+      <txdName>W_AM_THROWINGSPEAR</txdName>
+      <ptfxAssetName>NULL</ptfxAssetName>
+      <lodDist value="500"/>
+    </Item>
+    <Item>
+      <modelName>W_AMMO_SPEAR</modelName>
+      <txdName>W_AMMO_SPEAR</txdName>
+      <ptfxAssetName>NULL</ptfxAssetName>
+      <lodDist value="500"/>
+    </Item>
+    <Item>
+      <modelName>W_ME_KICKHAMMER</modelName>
+      <txdName>W_ME_KICKHAMMER</txdName>
+      <ptfxAssetName>NULL</ptfxAssetName>
+      <lodDist value="500"/>
+    </Item>
+      <Item>
+      <modelName>W_EX_BIRDBOMB</modelName>
+      <txdName>W_EX_Birdbomb</txdName>
+      <ptfxAssetName>null</ptfxAssetName>
+      <lodDist value="300"/>
+    </Item>
+    <Item>
+      <modelName>W_EX_C4</modelName>
+      <txdName>W_EX_C4</txdName>
+      <ptfxAssetName>null</ptfxAssetName>
+      <lodDist value="300"/>
+    </Item>
+    <Item>
+      <modelName>w_me_mga7000</modelName>
+      <txdName>w_me_mga7000</txdName>
+      <ptfxAssetName>NULL</ptfxAssetName>
+      <lodDist value="500"/>
+    </Item>
+    <Item>
+      <modelName>w_me_bighammer</modelName>
+      <txdName>w_me_bighammer</txdName>
+      <ptfxAssetName>NULL</ptfxAssetName>
+      <lodDist value="500"/>
+    </Item>
+    <Item>
+      <modelName>w_me_gravhammer</modelName>
+      <txdName>w_me_gravhammer</txdName>
+      <ptfxAssetName>NULL</ptfxAssetName>
+      <lodDist value="500"/>
+    </Item>
+    <Item>
+      <modelName>w_me_stunrod</modelName>
+      <txdName>w_me_stunrod</txdName>
+      <ptfxAssetName>NULL</ptfxAssetName>
+      <lodDist value="500"/>
+    </Item>
+    <Item>
+      <modelName>w_me_katana</modelName>
+      <txdName>w_me_katana</txdName>
+      <ptfxAssetName>NULL</ptfxAssetName>
+      <lodDist value="500"/>
+    </Item>
+    <Item>
+      <modelName>w_me_katana2</modelName>
+      <txdName>w_me_katana2</txdName>
+      <ptfxAssetName>NULL</ptfxAssetName>
+      <lodDist value="500"/>
+    </Item>
+    <Item>
+      <modelName>w_me_katana3</modelName>
+      <txdName>w_me_katana3</txdName>
+      <ptfxAssetName>NULL</ptfxAssetName>
+      <lodDist value="500"/>
+    </Item>
+    <Item>
+      <modelName>w_me_katana4</modelName>
+      <txdName>w_me_katana4</txdName>
+      <ptfxAssetName>NULL</ptfxAssetName>
+      <lodDist value="500"/>
+    </Item>
+    <Item>
+      <modelName>w_me_armagodsword</modelName>
+      <txdName>w_me_armagodsword</txdName>
+      <ptfxAssetName>NULL</ptfxAssetName>
+      <lodDist value="500"/>
+    </Item>
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>

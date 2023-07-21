@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVariation>
+    <variationData>
+        <!-- emsswift -->
+        <Item>
+            <modelName>emsswift</modelName>
+            <colors>
+                <Item>
+                    <indices content="char_array">
+                        122
+                        0
+                        0
+                        122
+                        4
+                        4
+                    </indices>
+                    <liveries>
+                        <Item value="true"/>
+                        <Item value="false"/>
+                        <Item value="false"/>
+                        <Item value="false"/>
+                    </liveries>
+                </Item>
+                <Item>
+                    <indices content="char_array">
+                        122
+                        0
+                        0
+                        2
+                        21
+                        21
+                    </indices>
+                    <liveries>
+                        <Item value="true"/>
+                        <Item value="false"/>
+                        <Item value="false"/>
+                        <Item value="false"/>
+                    </liveries>
+                </Item>
+                <Item>
+                    <indices content="char_array">
+                        122
+                        0
+                        0
+                        2
+                        4
+                        4
+                    </indices>
+                    <liveries>
+                        <Item value="false"/>
+                        <Item value="true"/>
+                        <Item value="true"/>
+                        <Item value="true"/>
+                    </liveries>
+                </Item>
+                <Item>
+                    <indices content="char_array">
+                        122
+                        0
+                        0
+                        2
+                        104
+                        104
+                    </indices>
+                    <liveries>
+                        <Item value="false"/>
+                        <Item value="true"/>
+                        <Item value="true"/>
+                        <Item value="true"/>
+                    </liveries>
+                </Item>
+                <Item>
+                    <indices content="char_array">
+                        122
+                        0
+                        0
+                        2
+                        46
+                        46
+                    </indices>
+                    <liveries>
+                        <Item value="false"/>
+                        <Item value="true"/>
+                        <Item value="true"/>
+                        <Item value="true"/>
+                    </liveries>
+                </Item>
+            </colors>
+            <kits>
+                <Item>0_default_modkit</Item>
+            </kits>
+            <windowsWithExposedEdges/>
+            <plateProbabilities>
+                <Probabilities/>
+            </plateProbabilities>
+            <lightSettings value="475"/>
+            <sirenSettings value="0"/>
+        </Item>
+        <!-- ambulance -->
+        <Item>
+            <modelName>ambulance</modelName>
+            <colors>
+                <Item>
+                    <indices content="char_array">
+                        112
+                        2
+                        0
+                        147
+                        48
+                        48
+                    </indices>
+                    <liveries/>
+                </Item>
+                <Item>
+                    <indices content="char_array">
+                        112
+                        2
+                        0
+                        147
+                        38
+                        38
+                    </indices>
+                    <liveries/>
+                </Item>
+                <Item>
+                    <indices content="char_array">
+                        112
+                        2
+                        0
+                        112
+                        41
+                        41
+                    </indices>
+                    <liveries/>
+                </Item>
+            </colors>
+            <kits>
+                <Item>0_default_modkit</Item>
+            </kits>
+            <windowsWithExposedEdges/>
+            <plateProbabilities>
+                <Probabilities>
+                    <Item>
+                        <Name>Standard White</Name>
+                        <Value value="100"/>
+                    </Item>
+                </Probabilities>
+            </plateProbabilities>
+            <lightSettings value="0"/>
+            <sirenSettings value="845"/>
+        </Item>
+        <!-- ambulance2 -->
+        <Item>
+            <modelName>ambulance2</modelName>
+            <colors>
+                <Item>
+                    <indices content="char_array">
+                        112
+                        2
+                        0
+                        147
+                        48
+                        48
+                    </indices>
+                    <liveries/>
+                </Item>
+                <Item>
+                    <indices content="char_array">
+                        112
+                        2
+                        0
+                        147
+                        38
+                        38
+                    </indices>
+                    <liveries/>
+                </Item>
+                <Item>
+                    <indices content="char_array">
+                        112
+                        2
+                        0
+                        147
+                        41
+                        41
+                    </indices>
+                    <liveries/>
+                </Item>
+            </colors>
+            <kits>
+                <Item>0_default_modkit</Item>
+            </kits>
+            <windowsWithExposedEdges/>
+            <plateProbabilities>
+                <Probabilities>
+                    <Item>
+                        <Name>Standard White</Name>
+                        <Value value="100"/>
+                    </Item>
+                </Probabilities>
+            </plateProbabilities>
+            <lightSettings value="1"/>
+            <sirenSettings value="846"/>
+        </Item>
+        <!-- emsstalker -->
+        <Item>
+            <modelName>emsstalker</modelName>
+            <colors>
+                <Item>
+                    <indices content="char_array">
+                        112
+                        2
+                        0
+                        11
+                        150
+                        150
+                    </indices>
+                    <liveries/>
+                </Item>
+                <Item>
+                    <indices content="char_array">
+                        112
+                        2
+                        0
+                        11
+                        92
+                        92
+                    </indices>
+                    <liveries/>
+                </Item>
+            </colors>
+            <kits>
+                <Item>0_default_modkit</Item>
+            </kits>
+            <windowsWithExposedEdges/>
+            <plateProbabilities>
+                <Probabilities>
+                    <Item>
+                        <Name>Standard White</Name>
+                        <Value value="100"/>
+                    </Item>
+                </Probabilities>
+            </plateProbabilities>
+            <lightSettings value="155"/>
+            <sirenSettings value="847"/>
+        </Item>
+        <!-- emscomet -->
+        <Item>
+            <modelName>emscomet</modelName>
+            <colors>
+                <Item>
+                    <indices content="char_array">
+                        112
+                        2
+                        0
+                        11
+                        16
+                        111
+                    </indices>
+                    <liveries/>
+                </Item>
+                <Item>
+                    <indices content="char_array">
+                        112
+                        2
+                        0
+                        11
+                        25
+                        111
+                    </indices>
+                    <liveries/>
+                </Item>
+                <Item>
+                    <indices content="char_array">
+                        67
+                        2
+                        0
+                        11
+                        16
+                        140
+                    </indices>
+                    <liveries/>
+                </Item>
+                <Item>
+                    <indices content="char_array">
+                        67
+                        2
+                        0
+                        11
+                        25
+                        111
+                    </indices>
+                    <liveries/>
+                </Item>
+            </colors>
+            <kits>
+                <Item>0_default_modkit</Item>
+            </kits>
+            <windowsWithExposedEdges/>
+            <plateProbabilities>
+                <Probabilities>
+                    <Item>
+                        <Name>Standard White</Name>
+                        <Value value="100"/>
+                    </Item>
+                </Probabilities>
+            </plateProbabilities>
+            <lightSettings value="93"/>
+            <sirenSettings value="848"/>
+        </Item>
+    </variationData>
+</CVehicleModelInfoVariation>

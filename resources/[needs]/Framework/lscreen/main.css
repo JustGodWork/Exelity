@@ -1,0 +1,140 @@
+@font-face {
+  font-family: Gilroy;
+  src: url(fonts/Gilroy-Light.otf);
+}
+
+body {
+  margin:0;
+  padding:0;
+  background-image: url(img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.containers {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  gap: 4vh;
+  margin-left: 23vh;
+  margin-top: 30vh;
+}
+
+.containers1 {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  gap: 4vh;
+  margin-left: 23vh;
+  margin-top: 30vh;
+}
+
+.containers2 {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  gap: 4vh;
+  margin-left: 23vh;
+  margin-top: 30vh;
+}
+
+.info-body {
+  width: 40vh;
+  height: 20vh;
+  border-radius: 2vh;
+  background-color: #8b8a8a5e;
+  border-style: solid;
+  border-color: #b9b6b6a4;
+}
+
+.left-dec {
+  width: 0.5vh;
+  height: 18vh;
+  background-color: #8200b8;
+  border-radius: 4vh;
+  margin-top: -7vh;
+  margin-left: -0.5vh;
+}
+
+.count {
+  font-family: Gilroy;
+  font-size: 7vh;
+  color: #5c5a5ae7;
+  margin-left: 35vh;
+}
+
+.title {
+  position: absolute;
+  font-family: Gilroy;
+  font-size: 2.5vh;
+  font-weight: 550;
+  color: #ffffff;
+  margin-top: -16vh;
+  margin-left: 2vh;
+}
+
+.help-text {
+  position: absolute;
+  width: 35vh;
+  font-family: Gilroy;
+  color: #ebe7e7;
+  font-weight: 300;
+  font-size: 1.5vh;
+  margin-top: -12vh;
+  margin-left: 2vh;
+}
+
+.loadingassets {
+  display: flex;
+  
+}
+
+.load-text {
+  font-family: Gilroy;
+  color: #ffffff;
+  font-size: 2.5vh;
+  margin-left: 40%;
+  margin-top: 2vh;
+}
+
+.bar  {
+  position: absolute;
+  width: 150vh;
+  height: 1vh;
+  background-color: #8b8a8a5e;
+  border-radius: 2vh;
+  margin-top: 90vh;
+  margin-left: 13.5vh;
+}
+
+.loadingbar-loaded {
+  width: 0%;
+  height: 100%;
+  background-color: #8200b8;
+  border-radius: 2vh;
+  box-shadow: 0vh 0vh 1.5vh #8200b8;
+  z-index: 10;
+}
+
+.pages {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  position: absolute;
+  margin-top: 35vh;
+  margin-left: 18vh;
+}
+
+.page {
+  cursor: pointer;
+  width: 1.3vh;
+  height: 1.3vh;
+  border-radius: 5vh;
+  background-color: #8200b8;
+  box-shadow: 0vh 0vh  1.5vh #8200b8;
+  margin: 1vh;
+}
+
+.page:hover {
+  background-color: #ffffff31;
+}

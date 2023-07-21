@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CAmbientModelSets>
+    <ModelSets>
+        <Item type="CAmbientModelSet">
+            <Name>POLICE_ARMORED</Name>
+            <Models>
+                <Item>
+                    <Name>RIOT</Name>
+                    <Variations type="NULL"/>
+                    <Probability value="1.0"/>
+                </Item>
+                <Item>
+                    <Name>POLICET</Name>
+                    <Variations type="NULL"/>
+                    <Probability value="0.5"/>
+                </Item>
+            </Models>
+        </Item>
+        <Item type="CAmbientModelSet">
+            <Name>TRACK_SERVICE</Name>
+            <Models>
+                <Item>
+                    <Name>RUMPO</Name>
+                    <Variations type="NULL"/>
+                    <Probability value="1.0"/>
+                </Item>
+                <Item>
+                    <Name>BOXVILLE</Name>
+                    <Variations type="NULL"/>
+                    <Probability value="1.0"/>
+                </Item>
+            </Models>
+        </Item>
+        <Item type="CAmbientModelSet">
+            <Name>KENNEL</Name>
+            <Models>
+                <Item>
+                    <Name>utillitruck3</Name>
+                    <Variations type="NULL"/>
+                    <Probability value="1.0"/>
+                </Item>
+            </Models>
+        </Item>
+        <Item type="CAmbientModelSet">
+            <Name>AMBULANCE_SPECIAL</Name>
+            <Models>
+                <Item>
+                    <Name>AMBULANCE2</Name>
+                    <Variations type="CAmbientVehicleModelVariations">
+                        <BodyColour1 value="-1"/>
+                        <BodyColour2 value="-1"/>
+                        <BodyColour3 value="-1"/>
+                        <BodyColour4 value="-1"/>
+                        <WindowTint value="-1"/>
+                        <ColourCombination value="-1"/>
+                        <Livery value="2"/>
+                        <ModKit value="-1"/>
+                        <Mods/>
+                        <Extra1>CantUse</Extra1>
+                        <Extra2>MustUse</Extra2>
+                        <Extra3>Either</Extra3>
+                        <Extra4>Either</Extra4>
+                        <Extra5>Either</Extra5>
+                        <Extra6>Either</Extra6>
+                        <Extra7>Either</Extra7>
+                        <Extra8>Either</Extra8>
+                        <Extra9>Either</Extra9>
+                        <Extra10>MustUse</Extra10>
+                    </Variations>
+                    <Probability value="0.8"/>
+                </Item>
+                <Item>
+                    <Name>EMSSTALKER</Name>
+                    <Variations type="CAmbientVehicleModelVariations">
+                        <BodyColour1 value="-1"/>
+                        <BodyColour2 value="-1"/>
+                        <BodyColour3 value="-1"/>
+                        <BodyColour4 value="-1"/>
+                        <WindowTint value="-1"/>
+                        <ColourCombination value="-1"/>
+                        <Livery value="-1"/>
+                        <ModKit value="-1"/>
+                        <Mods/>
+                        <Extra1>Either</Extra1>
+                        <Extra2>Either</Extra2>
+                        <Extra3>Either</Extra3>
+                        <Extra4>CantUse</Extra4>
+                        <Extra5>CantUse</Extra5>
+                        <Extra6>CantUse</Extra6>
+                        <Extra7>MustUse</Extra7>
+                        <Extra8>Either</Extra8>
+                        <Extra9>Either</Extra9>
+                        <Extra10>Either</Extra10>
+                    </Variations>
+                    <Probability value="1.0"/>
+                </Item>
+                <Item>
+                    <Name>EMSCOMET</Name>
+                    <Variations type="CAmbientVehicleModelVariations">
+                        <BodyColour1 value="-1"/>
+                        <BodyColour2 value="-1"/>
+                        <BodyColour3 value="-1"/>
+                        <BodyColour4 value="-1"/>
+                        <WindowTint value="-1"/>
+                        <ColourCombination value="-1"/>
+                        <Livery value="-1"/>
+                        <ModKit value="-1"/>
+                        <Mods/>
+                        <Extra1>MustUse</Extra1>
+                        <Extra2>MustUse</Extra2>
+                        <Extra3>MustUse</Extra3>
+                        <Extra4>Either</Extra4>
+                        <Extra5>Either</Extra5>
+                        <Extra6>Either</Extra6>
+                        <Extra7>Either</Extra7>
+                        <Extra8>Either</Extra8>
+                        <Extra9>Either</Extra9>
+                        <Extra10>MustUse</Extra10>
+                    </Variations>
+                    <Probability value="1.0"/>
+                </Item>
+            </Models>
+        </Item>
+        <Item type="CAmbientModelSet">
+            <Name>AMBULANCE_COUNTRY</Name>
+            <Models>
+                <Item>
+                    <Name>AMBULANCE</Name>
+                    <Variations type="NULL"/>
+                    <Probability value="1.0"/>
+                </Item>
+                <Item>
+                    <Name>EMSSTALKER</Name>
+                    <Variations type="NULL"/>
+                    <Probability value="0.1"/>
+                </Item>
+            </Models>
+        </Item>
+        <Item type="CAmbientModelSet">
+            <Name>AMBULANCE_HELI</Name>
+            <Models>
+                <Item>
+                    <Name>EMSSWIFT</Name>
+                    <Variations type="NULL"/>
+                    <Probability value="1.5"/>
+                </Item>
+                <Item>
+                    <Name>polmav</Name>
+                    <Variations type="CAmbientVehicleModelVariations">
+                        <BodyColour1 value="-1"/>
+                        <BodyColour2 value="-1"/>
+                        <BodyColour3 value="-1"/>
+                        <BodyColour4 value="-1"/>
+                        <WindowTint value="-1"/>
+                        <ColourCombination value="-1"/>
+                        <Livery value="1"/>
+                        <ModKit value="-1"/>
+                        <Mods/>
+                        <Extra1>Either</Extra1>
+                        <Extra2>Either</Extra2>
+                        <Extra3>Either</Extra3>
+                        <Extra4>Either</Extra4>
+                        <Extra5>Either</Extra5>
+                        <Extra6>Either</Extra6>
+                        <Extra7>Either</Extra7>
+                        <Extra8>Either</Extra8>
+                        <Extra9>Either</Extra9>
+                        <Extra10>Either</Extra10>
+                    </Variations>
+                    <Probability value="1.000000"/>
+                </Item>
+            </Models>
+        </Item>
+        <Item type="CAmbientModelSet">
+            <Name>AMBULANCE</Name>
+            <Models>
+                <Item>
+                    <Name>AMBULANCE</Name>
+                    <Variations type="CAmbientVehicleModelVariations">
+                        <BodyColour1 value="-1"/>
+                        <BodyColour2 value="-1"/>
+                        <BodyColour3 value="-1"/>
+                        <BodyColour4 value="-1"/>
+                        <WindowTint value="-1"/>
+                        <ColourCombination value="-1"/>
+                        <Livery value="-1"/>
+                        <ModKit value="-1"/>
+                        <Mods/>
+                        <Extra1>Either</Extra1>
+                        <Extra2>Either</Extra2>
+                        <Extra3>Either</Extra3>
+                        <Extra4>Either</Extra4>
+                        <Extra5>Either</Extra5>
+                        <Extra6>Either</Extra6>
+                        <Extra7>Either</Extra7>
+                        <Extra8>Either</Extra8>
+                        <Extra9>Either</Extra9>
+                        <Extra10>MustUse</Extra10>
+                    </Variations>
+                    <Probability value="1.0"/>
+                </Item>
+                <Item>
+                    <Name>AMBULANCE2</Name>
+                    <Variations type="CAmbientVehicleModelVariations">
+                        <BodyColour1 value="-1"/>
+                        <BodyColour2 value="-1"/>
+                        <BodyColour3 value="-1"/>
+                        <BodyColour4 value="-1"/>
+                        <WindowTint value="-1"/>
+                        <ColourCombination value="-1"/>
+                        <Livery value="-1"/>
+                        <ModKit value="-1"/>
+                        <Mods/>
+                        <Extra1>Either</Extra1>
+                        <Extra2>Either</Extra2>
+                        <Extra3>Either</Extra3>
+                        <Extra4>Either</Extra4>
+                        <Extra5>Either</Extra5>
+                        <Extra6>Either</Extra6>
+                        <Extra7>Either</Extra7>
+                        <Extra8>Either</Extra8>
+                        <Extra9>Either</Extra9>
+                        <Extra10>MustUse</Extra10>
+                    </Variations>
+                    <Probability value="1.0"/>
+                </Item>
+                <Item>
+                    <Name>EMSSTALKER</Name>
+                    <Variations type="NULL"/>
+                    <Probability value="0.2"/>
+                </Item>
+            </Models>
+        </Item>
+    </ModelSets>
+</CAmbientModelSets>

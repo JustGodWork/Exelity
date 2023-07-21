@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <script src="main.js"></script>
+    <title>v2</title>
+</head>
+<body>
+
+    <div class="loading-assets">
+      <div class="bar">
+        <div class="loadingbar-loaded"></div>
+      </div>
+    </div>
+
+    <audio id="audio_loading" src="music/song.mp3" autoplay hidden="true" loop="true">
+<script>
+
+  var play = true;
+  var myAudio = document.getElementById("audio_loading");
+
+  myAudio.volume = 0.2;
+
+  function onKeyDown(event) {
+         switch (event.keyCode) {
+              case 32: //SpaceBar                    
+                  if (play) {
+                     myAudio.pause();
+                     play = false;
+                  } else {
+                      myAudio.play();
+                      play = true;
+                  }
+                  break;
+          }
+   return false;
+  }
+
+  window.addEventListener("keydown", onKeyDown, false);
+</script>
+ 
+</body>
+</html>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleMetadataMgr>
+	<VehicleLayoutInfos>
+		<Item type="CVehicleLayoutInfo">
+			<Name>LAYOUT_HELI_EMSSWIFT</Name>
+			<Seats>
+				<Item>
+					<SeatInfo ref="SEAT_STANDARD_NO_SHUFFLE_FRONT_LEFT"/>
+					<SeatAnimInfo ref="SEAT_ANIM_HELI_FRONT_LEFT"/>
+				</Item>
+				<Item>
+					<SeatInfo ref="SEAT_STANDARD_NO_SHUFFLE_FRONT_RIGHT"/>
+					<SeatAnimInfo ref="SEAT_ANIM_HELI_FRONT_RIGHT"/>
+				</Item>
+				<Item>
+					<SeatInfo ref="SEAT_STANDARD_REAR_RIGHT"/>
+					<SeatAnimInfo ref="SEAT_ANIM_HELI_SWIFT_REAR_RIGHT"/>
+				</Item>
+				<Item>
+					<SeatInfo ref="SEAT_STANDARD_NO_SHUFFLE_REAR_LEFT"/>
+					<SeatAnimInfo ref="SEAT_ANIM_TRAIN_REAR_LEFT"/>
+				</Item>
+			</Seats>
+			<EntryPoints>
+				<Item>
+					<EntryPointInfo ref="ENTRY_POINT_EMSSWIFT_NO_SHUFFLE_FRONT_LEFT"/>
+					<EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_SWIFT_FRONT_LEFT"/>
+				</Item>
+				<Item>
+					<EntryPointInfo ref="ENTRY_POINT_EMSSWIFT_NO_SHUFFLE_FRONT_RIGHT"/>
+					<EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_SWIFT_FRONT_RIGHT"/>
+				</Item>
+				<Item>
+					<EntryPointInfo ref="ENTRY_POINT_STANDARD_REAR_RIGHT"/>
+					<EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_SWIFT_REAR_RIGHT"/>
+				</Item>
+				<Item>
+					<EntryPointInfo ref="ENTRY_POINT_EMSSWIFT_NO_SHUFFLE_REAR_RIGHT"/>
+					<EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_EMSSWIFT_REAR_RIGHT"/>
+				</Item>
+			</EntryPoints>
+			<LayoutFlags>StreamAnims UseFinerAlignTolerance Use2DBodyBlend</LayoutFlags>
+			<BicycleInfo ref="NULL"/>
+			<HandsUpClipSetId>busted_vehicle_std</HandsUpClipSetId>
+			<SteeringWheelOffset x="0.000000" y="0.350000" z="0.320000"/>
+		</Item>
+		<Item type="CVehicleLayoutInfo">
+			<Name>LAYOUT_VAN_AMBULANCE</Name>
+			<Seats>
+				<Item>
+					<SeatInfo ref="SEAT_VAN_FRONT_LEFT"/>
+					<SeatAnimInfo ref="SEAT_ANIM_VAN_FRONT_LEFT"/>
+				</Item>
+				<Item>
+					<SeatInfo ref="SEAT_VAN_FRONT_RIGHT"/>
+					<SeatAnimInfo ref="SEAT_ANIM_VAN_FRONT_RIGHT"/>
+				</Item>
+				<Item>
+					<SeatInfo ref="SEAT_STANDARD_NO_SHUFFLE_SIDE_RIGHT"/>
+					<SeatAnimInfo ref="SEAT_ANIM_VAN_AMBULANCE_SIDE_RIGHT"/>
+				</Item>
+				<Item>
+					<SeatInfo ref="SEAT_VAN_REAR_RIGHT"/>
+					<SeatAnimInfo ref="SEAT_ANIM_VAN_REAR_RIGHT"/>
+				</Item>
+			</Seats>
+			<EntryPoints>
+				<Item>
+					<EntryPointInfo ref="ENTRY_POINT_VAN_FRONT_LEFT"/>
+					<EntryPointAnimInfo ref="ENTRY_POINT_ANIM_VAN_FRONT_LEFT"/>
+				</Item>
+				<Item>
+					<EntryPointInfo ref="ENTRY_POINT_VAN_FRONT_RIGHT"/>
+					<EntryPointAnimInfo ref="ENTRY_POINT_ANIM_VAN_FRONT_RIGHT"/>
+				</Item>
+				<Item>
+					<EntryPointInfo ref="ENTRY_POINT_VAN_AMBULANCE_SIDE_RIGHT"/>
+					<EntryPointAnimInfo ref="ENTRY_POINT_ANIM_VAN_AMBULANCE_SIDE_RIGHT"/>
+				</Item>
+				<Item>
+					<EntryPointInfo ref="ENTRY_POINT_VAN_REAR_RIGHT"/>
+					<EntryPointAnimInfo ref="ENTRY_POINT_ANIM_VAN_AMBULANCE_REAR_RIGHT"/>
+				</Item>
+			</EntryPoints>
+			<LayoutFlags>StreamAnims UseVanOpenDoorBlendParams UseDoorOscillation UseLeanSteerAnims UseLowerDoorBlockTest</LayoutFlags>
+			<BicycleInfo ref="NULL"/>
+			<HandsUpClipSetId>busted_vehicle_van</HandsUpClipSetId>
+			<SteeringWheelOffset x="0.006700" y="0.330000" z="0.270000"/>
+			<MaxXAcceleration value="4.00000"/>
+			<BodyLeanXApproachSpeed value="5.00000"/>
+			<BodyLeanXSmallDelta value="0.30000"/>
+			<FirstPersonAdditiveIdleClipSets>
+				<Item>clipset@veh@van@ds@idle_a</Item>
+				<Item>clipset@veh@van@ds@idle_b</Item>
+				<Item>clipset@veh@van@ds@idle_c</Item>
+				<Item>clipset@veh@van@ds@idle_d</Item>
+				<Item>clipset@veh@van@ds@idle_e</Item>
+			</FirstPersonAdditiveIdleClipSets>
+			<FirstPersonRoadRageClipSets>
+				<Item>clipset@veh@van@ds@hit_wheel@idle_a</Item>
+				<Item>clipset@veh@van@ds@hit_wheel@idle_b</Item>
+				<Item>clipset@veh@van@ds@hit_wheel@idle_c</Item>
+			</FirstPersonRoadRageClipSets>
+		</Item>
+	</VehicleLayoutInfos>
+	<VehicleSeatInfos>
+		<Item type="CVehicleSeatInfo">
+			<Name>SEAT_STANDARD_NO_SHUFFLE_SIDE_RIGHT</Name>
+			<SeatBoneName>seat_dside_r</SeatBoneName>
+			<ShuffleLink/>
+			<RearSeatLink/>
+			<DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+			<SeatFlags/>
+			<HairScale value="0.000000"/>
+		</Item>
+	</VehicleSeatInfos>
+	<VehicleSeatAnimInfos>
+		<Item type="CVehicleSeatAnimInfo">
+			<Name>SEAT_ANIM_VAN_AMBULANCE_SIDE_RIGHT</Name>
+			<DriveByInfo ref="DRIVEBY_BUS_REAR_LEFT"/>
+			<InsideClipSetMap ref="INSIDE_CLIPSET_MAP_BUS_PASSENGER"/>
+			<PanicClipSet>clipset@veh@bus@passenger@rps@idle_panic</PanicClipSet>
+			<AgitatedClipSet/>
+			<DuckedClipSet>clipset@veh@bus@passenger@common@idle_duck</DuckedClipSet>
+			<FemaleClipSet/>
+			<LowLODIdleAnim>BUS_PASSENGER</LowLODIdleAnim>
+			<SeatAmbientContext>IN_VAN</SeatAmbientContext>
+			<InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+			<SeatAnimFlags>CannotBeJacked UseStandardInVehicleAnims HasPanicAnims PreventShuffleJack DisableAbnormalExits</SeatAnimFlags>
+			<SteeringSmoothing value="0.100000"/>
+			<ExitToAimInfoName/>
+			<MaleGestureClipSetId/>
+			<FemaleGestureClipSetId/>
+		</Item>
+	</VehicleSeatAnimInfos>
+	<VehicleEntryPointInfos>
+		<!-- swift -->
+		<Item type="CVehicleEntryPointInfo">
+			<Name>ENTRY_POINT_EMSSWIFT_NO_SHUFFLE_FRONT_LEFT</Name>
+			<DoorBoneName>door_dside_f</DoorBoneName>
+			<SecondDoorBoneName/>
+			<DoorHandleBoneName>handle_dside_f</DoorHandleBoneName>
+			<WindowId>FRONT_LEFT</WindowId>
+			<VehicleSide>SIDE_LEFT</VehicleSide>
+			<AccessableSeats>
+				<Item ref="SEAT_STANDARD_NO_SHUFFLE_FRONT_LEFT"/>
+			</AccessableSeats>
+			<VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_STD_LEFT"/>
+			<Flags>BlockJackReactionUntilJackerIsReady</Flags>
+			<BlockJackReactionSides>
+				<Item>SIDE_LEFT</Item>
+			</BlockJackReactionSides>
+		</Item>
+		<Item type="CVehicleEntryPointInfo">
+			<Name>ENTRY_POINT_EMSSWIFT_NO_SHUFFLE_FRONT_RIGHT</Name>
+			<DoorBoneName>door_pside_f</DoorBoneName>
+			<SecondDoorBoneName/>
+			<DoorHandleBoneName>handle_pside_f</DoorHandleBoneName>
+			<WindowId>FRONT_RIGHT</WindowId>
+			<VehicleSide>SIDE_RIGHT</VehicleSide>
+			<AccessableSeats>
+				<Item ref="SEAT_STANDARD_NO_SHUFFLE_FRONT_RIGHT"/>
+			</AccessableSeats>
+			<VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_STD_RIGHT"/>
+			<Flags>BlockJackReactionUntilJackerIsReady</Flags>
+			<BlockJackReactionSides>
+				<Item>SIDE_RIGHT</Item>
+			</BlockJackReactionSides>
+		</Item>
+		<Item type="CVehicleEntryPointInfo">
+			<Name>ENTRY_POINT_EMSSWIFT_NO_SHUFFLE_REAR_RIGHT</Name>
+			<DoorBoneName>door_pside_r</DoorBoneName>
+			<SecondDoorBoneName/>
+			<DoorHandleBoneName/>
+			<WindowId>INVALID</WindowId>
+			<VehicleSide>SIDE_RIGHT</VehicleSide>
+			<AccessableSeats>
+				<Item ref="SEAT_STANDARD_NO_SHUFFLE_REAR_LEFT"/>
+			</AccessableSeats>
+			<VehicleExtraPointsInfo ref="NULL"/>
+			<Flags>MPWarpInOut SPEntryAllowedAlso</Flags>
+			<BlockJackReactionSides>
+				<Item>SIDE_LEFT</Item>
+				<Item>SIDE_RIGHT</Item>
+			</BlockJackReactionSides>
+		</Item>
+		<!-- ambulance -->
+		<Item type="CVehicleEntryPointInfo">
+			<Name>ENTRY_POINT_VAN_AMBULANCE_SIDE_RIGHT</Name>
+			<DoorBoneName>door_dside_r</DoorBoneName>
+			<SecondDoorBoneName/>
+			<DoorHandleBoneName>handle_dside_r</DoorHandleBoneName>
+			<WindowId>REAR_LEFT</WindowId>
+			<VehicleSide>SIDE_RIGHT</VehicleSide>
+			<AccessableSeats>
+				<Item ref="SEAT_STANDARD_NO_SHUFFLE_REAR_LEFT"/>
+			</AccessableSeats>
+			<VehicleExtraPointsInfo ref="NULL"/>
+			<Flags/>
+			<BlockJackReactionSides/>
+		</Item>
+	</VehicleEntryPointInfos>
+	<VehicleEntryPointAnimInfos>
+		<Item type="CVehicleEntryPointAnimInfo">
+			<Name>ENTRY_POINT_ANIM_HELI_EMSSWIFT_REAR_RIGHT</Name>
+			<CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_RIGHT"/>
+			<EntryClipSetMap ref="ENTRY_CLIPSET_MAP_HELI_SWIFT_REAR_RIGHT"/>
+			<ExitClipSetMap ref="EXIT_CLIPSET_MAP_HELI_SWIFT_REAR_RIGHT"/>
+			<AlternateTryLockedDoorClipId/>
+			<AlternateForcedEntryClipId/>
+			<AlternateJackFromOutSideClipId/>
+			<AlternateBeJackedFromOutSideClipId/>
+			<AlternateEntryPointClipSetId/>
+			<EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+			<EntryTranslation x="1.466000" y="-0.496000" z="0.035000"/>
+			<OpenDoorTranslation x="0.000000" y="0.000000"/>
+			<OpenDoorHeadingChange value="0.000000"/>
+			<EntryHeadingChange value="3.14000"/>
+			<ExtraZForMPPlaneWarp value="0.000000"/>
+			<EntryPointFlags>DontCloseDoorInside DontCloseDoorOutside</EntryPointFlags>
+			<EntryAnimVariations ref="NULL"/>
+		</Item>
+		<Item type="CVehicleEntryPointAnimInfo">
+			<Name>ENTRY_POINT_ANIM_VAN_AMBULANCE_SIDE_RIGHT</Name>
+			<CommonClipSetMap ref="COMMON_CLIPSET_MAP_AUTOMOBILE_RIGHT"/>
+			<EntryClipSetMap ref="ENTRY_CLIPSET_MAP_TOURBUS_REAR_LEFT"/>
+			<ExitClipSetMap ref="ENTRY_CLIPSET_MAP_TOURBUS_REAR_LEFT"/>
+			<AlternateTryLockedDoorClipId/>
+			<AlternateForcedEntryClipId/>
+			<AlternateJackFromOutSideClipId/>
+			<AlternateBeJackedFromOutSideClipId/>
+			<AlternateEntryPointClipSetId/>
+			<EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+			<EntryTranslation x="4.5" y="0.421000" z="-0.014000"/>
+			<OpenDoorTranslation x="0.000000" y="0.000000"/>
+			<OpenDoorHeadingChange value="0.000000"/>
+			<EntryHeadingChange value="-1.570000"/>
+			<ExtraZForWaterEntry value="0.000000"/>
+			<EntryPointFlags>JackIncludesGetIn UseOpenDoorBlendAnims DontCloseDoorInside DontCloseDoorOutside UseGetUpAfterJack DeadJackIncludesGetIn NavigateToWarpEntryPoint</EntryPointFlags>
+			<EntryAnimVariations ref="NULL"/>
+			<NMJumpFromVehicleTuningSet>SLOWTRUCK</NMJumpFromVehicleTuningSet>
+		</Item>
+		<Item type="CVehicleEntryPointAnimInfo">
+			<Name>ENTRY_POINT_ANIM_VAN_AMBULANCE_REAR_RIGHT</Name>
+			<CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_LEFT"/>
+			<EntryClipSetMap ref="ENTRY_CLIPSET_MAP_VAN_REAR_RIGHT"/>
+			<ExitClipSetMap ref="EXIT_CLIPSET_MAP_VAN_REAR_RIGHT"/>
+			<AlternateTryLockedDoorClipId/>
+			<AlternateForcedEntryClipId/>
+			<AlternateJackFromOutSideClipId/>
+			<AlternateBeJackedFromOutSideClipId/>
+			<AlternateEntryPointClipSetId/>
+			<EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+			<EntryTranslation x="-1.770359" y="0.18" z="0.200000"/>
+			<OpenDoorTranslation x="0.000000" y="0.000000"/>
+			<OpenDoorHeadingChange value="0.000000"/>
+			<EntryHeadingChange value="-1.570000"/>
+			<ExtraZForWaterEntry value="0.000000"/>
+			<EntryPointFlags>JackIncludesGetIn UseOpenDoorBlendAnims DontCloseDoorOutside UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+			<EntryAnimVariations ref="ENTRY_ANIM_VARIATIONS_VAN_REAR_RIGHT"/>
+		</Item>
+	</VehicleEntryPointAnimInfos>
+</CVehicleMetadataMgr>

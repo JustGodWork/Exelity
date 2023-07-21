@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by Riot J.#5150 for XBR410 Modifications -->
+
+<CVehicleMetadataMgr>
+  <VehicleLayoutInfos>
+  <Item type="CVehicleLayoutInfo">
+	  <Name>LAYOUT_VAN_BEARCAT</Name>
+	  <Seats>
+		<!-- Driver Seat -->
+		<Item>
+		  <SeatInfo ref="SEAT_VAN_FRONT_LEFT" />
+		  <SeatAnimInfo ref="SEAT_ANIM_RIOT_VAN_FRONT_LEFT" />
+		</Item>
+		<!-- Passenger Seat -->
+		<Item>
+		  <SeatInfo ref="SEAT_VAN_FRONT_RIGHT" />
+		  <SeatAnimInfo ref="SEAT_ANIM_RIOT_VAN_FRONT_RIGHT" />
+		</Item>
+		<!-- Rear left side door -->
+		<Item>
+		  <SeatInfo ref="SEAT_VAN_REAR_LEFT" />
+		  <SeatAnimInfo ref="SEAT_ANIM_VAN_REAR_LEFT" />
+		</Item>
+		<!-- Rear right side door -->
+		<Item>
+		  <SeatInfo ref="SEAT_VAN_REAR_RIGHT" />
+		  <SeatAnimInfo ref="SEAT_ANIM_VAN_REAR_RIGHT" />
+		</Item>
+		<!-- Rear Left Hanging -->
+		<Item>
+		<SeatInfo ref="SEAT_FIRETRUCK_STANDING_LEFT" />
+		<SeatAnimInfo ref="SEAT_ANIM_FIRETRUCK_STANDING_LEFT" />
+		</Item>
+		<!-- Rear Right Hanging -->
+		<Item>
+		<SeatInfo ref="SEAT_FIRETRUCK_STANDING_RIGHT" />
+		<SeatAnimInfo ref="SEAT_ANIM_FIRETRUCK_STANDING_RIGHT" />
+		</Item>
+		<!--  Left Hanging -->
+		<Item>
+		  <SeatInfo ref="SEAT_SWAT_VAN_EXTRA_LEFT_2" />
+		  <SeatAnimInfo ref="SEAT_ANIM_SWAT_VAN_SIDE_LEFT_2" />
+		</Item>
+		<!-- Right Hanging -->
+		<Item>
+		  <SeatInfo ref="SEAT_SWAT_VAN_EXTRA_RIGHT_2" />
+		  <SeatAnimInfo ref="SEAT_ANIM_SWAT_VAN_SIDE_RIGHT_2" />
+		</Item>
+		<!-- Turret -->
+		<Item>
+		  <SeatInfo ref="SEAT_VAN_ARMORED_REAR_TURRET" />
+		  <SeatAnimInfo ref="SEAT_ANIM_VAN_ARMORED_TURRET" />
+		</Item>
+	  </Seats>
+	  <EntryPoints>
+		<!-- Driver Seat -->
+		<Item>
+		  <EntryPointInfo ref="ENTRY_POINT_VAN_FRONT_LEFT" />
+		  <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_RIOT_VAN_FRONT_LEFT" />
+		</Item>
+		<!-- Passenger Seat -->
+		<Item>
+		  <EntryPointInfo ref="ENTRY_POINT_VAN_FRONT_RIGHT" />
+		  <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_RIOT_VAN_FRONT_RIGHT" />
+		</Item>
+		<!-- Rear Left Door Seat -->
+		<Item>
+		  <EntryPointInfo ref="ENTRY_POINT_VAN_REAR_LEFT" />
+		  <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_RIOT_VAN_REAR_LEFT" />
+		</Item>
+		<!-- Rear Right Door Seat-->
+		<Item>
+		  <EntryPointInfo ref="ENTRY_POINT_VAN_REAR_RIGHT" />
+		  <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_RIOT_VAN_REAR_RIGHT" />
+		</Item>
+		<!-- Rear Left Hanging -->
+		<Item>
+		  <EntryPointInfo ref="ENTRY_POINT_FIRETRUCK_STANDING_LEFT" />
+		  <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_FIRETRUCK_STANDING_LEFT" />
+		</Item>
+		<!-- Rear Right Hanging -->
+		<Item>
+		  <EntryPointInfo ref="ENTRY_POINT_FIRETRUCK_STANDING_RIGHT" />
+		  <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_FIRETRUCK_STANDING_RIGHT" />
+		</Item>
+		<!-- Left Hanging -->
+		<Item>
+		  <EntryPointInfo ref="ENTRY_POINT_VAN_SIDE_LEFT_1" />
+		  <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_VAN_SIDE_LEFT" />
+		</Item>
+		<!-- Right Hanging -->
+		<Item>
+		  <EntryPointInfo ref="ENTRY_POINT_VAN_SIDE_RIGHT_1" />
+		  <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_VAN_SIDE_RIGHT" />
+		</Item>
+		<!-- Left Hanging -->
+		<Item>
+		  <EntryPointInfo ref="ENTRY_POINT_VAN_SIDE_LEFT_2" />
+		  <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_VAN_SIDE_LEFT" />
+		</Item>
+		<!-- Right Hanging -->
+		<Item>
+		  <EntryPointInfo ref="ENTRY_POINT_VAN_SIDE_RIGHT_2" />
+		  <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_VAN_SIDE_RIGHT" />
+		</Item>
+		<!-- Turret -->
+		<Item>
+		  <EntryPointInfo ref="ENTRY_POINT_VAN_ARMORED_TURRET_TOP_LEFT" />
+		  <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_VAN_ARMORED_TURRET_TOP_LEFT" />
+		</Item>
+		<Item>
+		  <EntryPointInfo ref="ENTRY_POINT_VAN_ARMORED_TURRET_TOP_RIGHT" />
+		  <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_VAN_ARMORED_TURRET_TOP_RIGHT" />
+		</Item>
+      </EntryPoints>
+      <LayoutFlags>StreamAnims UseLeanSteerAnims</LayoutFlags>
+      <BicycleInfo ref="NULL" />
+      <HandsUpClipSetId>busted_vehicle_std</HandsUpClipSetId>
+      <SteeringWheelOffset x="0.000000" y="0.350000" z="0.320000" />
+	  <MaxXAcceleration value="4.00000" />
+	  <BodyLeanXApproachSpeed value="5.00000" />
+	  <BodyLeanXSmallDelta value="0.30000" />
+	  <FirstPersonAdditiveIdleClipSets>
+		<Item>clipset@veh@van@ds@idle_a</Item>
+		<Item>clipset@veh@van@ds@idle_b</Item>
+		<Item>clipset@veh@van@ds@idle_c</Item>
+		<Item>clipset@veh@van@ds@idle_d</Item>
+		<Item>clipset@veh@van@ds@idle_e</Item>
+	  </FirstPersonAdditiveIdleClipSets>
+	  <FirstPersonRoadRageClipSets>
+		<Item>clipset@veh@van@ds@hit_wheel@idle_a</Item>
+		<Item>clipset@veh@van@ds@hit_wheel@idle_b</Item>
+		<Item>clipset@veh@van@ds@hit_wheel@idle_c</Item>
+	  </FirstPersonRoadRageClipSets>
+    </Item>
+  </VehicleLayoutInfos>	
+</CVehicleMetadataMgr>

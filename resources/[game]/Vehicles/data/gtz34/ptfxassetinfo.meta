@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CPtFxAssetInfoMgr>
+  <ptfxAssetDependencyInfos>
+    <Item type="CPtFxAssetDependencyInfo">
+      <parentName>veh_xs_vehicle_mods</parentName>
+      <childName>weap_ba_vehicle_weapons</childName>
+    </Item>
+    <Item type="CPtFxAssetDependencyInfo">
+      <parentName>veh_impexp_ruiner</parentName>
+      <childName>veh_xs_vehicle_mods</childName>
+    </Item>
+    <Item type="CPtFxAssetDependencyInfo">
+      <parentName>weap_ba_vehicle_weapons</parentName>
+      <childName>weap_xs_vehicle_weapons</childName>
+    </Item>
+  </ptfxAssetDependencyInfos>
+</CPtFxAssetInfoMgr>

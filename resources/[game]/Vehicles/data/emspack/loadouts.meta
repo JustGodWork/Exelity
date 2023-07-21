@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CPedInventoryLoadOutManager>
+    <LoadOuts>
+        <Item>
+            <Name>LOADOUT_MEDIC</Name>
+            <Items>
+                <Item type="CLoadOutWeapon">
+                    <WeaponName>WEAPON_UNARMED</WeaponName>
+                    <Ammo/>
+                    <Flags/>
+                    <ComponentNames/>
+                </Item>
+                <Item type="CLoadOutRandom">
+                    <Items>
+                        <Item>
+                            <Item type="CLoadOutWeapon">
+                                <WeaponName>WEAPON_UNARMED</WeaponName>
+                                <Ammo/>
+                                <Flags/>
+                                <ComponentNames/>
+                            </Item>
+                            <Chance value="1.0"/>
+                        </Item>
+                        <Item>
+                            <Item type="CLoadOutWeapon">
+                                <WeaponName>WEAPON_MEDBAG</WeaponName>
+                                <Ammo/>
+                                <Flags>EquipThisWeapon</Flags>
+                                <ComponentNames/>
+                            </Item>
+                            <Chance value="0.8"/>
+                        </Item>
+                    </Items>
+                </Item>
+            </Items>
+        </Item>
+        <Item>
+            <Name>LOADOUT_DONATION</Name>
+            <Items>
+                <Item type="CLoadOutWeapon">
+                    <WeaponName>WEAPON_UNARMED</WeaponName>
+                    <Ammo/>
+                    <Flags/>
+                    <ComponentNames/>
+                </Item>
+                <Item type="CLoadOutRandom">
+                    <Items>
+                        <Item>
+                            <Item type="CLoadOutWeapon">
+                                <WeaponName>WEAPON_DONATION</WeaponName>
+                                <Ammo/>
+                                <Flags>EquipThisWeapon</Flags>
+                                <ComponentNames/>
+                            </Item>
+                            <Chance value="1.0"/>
+                        </Item>
+                        <Item>
+                            <Item type="CLoadOutWeapon">
+                                <WeaponName>WEAPON_HATCHET</WeaponName>
+                                <Ammo/>
+                                <Flags>EquipThisWeapon</Flags>
+                                <ComponentNames/>
+                            </Item>
+                            <Chance value="0.6"/>
+                        </Item>
+                        <Item>
+                            <Item type="CLoadOutWeapon">
+                                <WeaponName>WEAPON_EMPLAUNCHER</WeaponName>
+                                <Ammo value="5"/>
+                                <Flags>EquipThisWeapon</Flags>
+                                <ComponentNames/>
+                            </Item>
+                            <Chance value="0.2"/>
+                        </Item>
+                        <Item>
+                            <Item type="CLoadOutWeapon">
+                                <WeaponName>WEAPON_COMPACTRIFLE</WeaponName>
+                                <Ammo value="90"/>
+                                <Flags>EquipThisWeapon</Flags>
+                                <ComponentNames/>
+                            </Item>
+                            <Chance value="0.2"/>
+                        </Item>
+                    </Items>
+                </Item>
+            </Items>
+        </Item>
+    </LoadOuts>
+</CPedInventoryLoadOutManager>

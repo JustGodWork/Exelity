@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CScenarioPointManifest>
+    <VersionNumber value="0"/>
+    <RegionDefs>
+        <Item type="CScenarioPointRegionDef">
+            <Name>dlc_fpmrsa:/%PLATFORM%/levels/gta5/scenario/fpems_mrsa_city_s</Name>
+            <AABB>
+                <min x="692.1687" y="-3300.24072" z="4.74212456"/>
+                <max x="832.14" y="-2906.4917" z="38.5308952"/>
+            </AABB>
+        </Item>
+        <Item type="CScenarioPointRegionDef">
+            <Name>dlc_fpmrsa:/%PLATFORM%/levels/gta5/scenario/fpems_mrsa_city_ne</Name>
+            <AABB>
+                <min x="257.8576" y="-1618.2085" z="26.4092617"/>
+                <max x="1746.80859" y="-605.9059" z="260"/>
+            </AABB>
+        </Item>
+        <Item type="CScenarioPointRegionDef">
+            <Name>dlc_fpmrsa:/%PLATFORM%/levels/gta5/scenario/fpems_mrsa_city_n</Name>
+            <AABB>
+                <min x="552.347351" y="-88.0946" z="119.98597"/>
+                <max x="966.1235" y="618.6151" z="268.70752"/>
+            </AABB>
+        </Item>
+        <Item type="CScenarioPointRegionDef">
+            <Name>dlc_fpmrsa:/%PLATFORM%/levels/gta5/scenario/fpems_mrsa_city_nw</Name>
+            <AABB>
+                <min x="-1860.56238" y="35.71694" z="57.421257"/>
+                <max x="-1250.032" y="616.480347" z="200"/>
+            </AABB>
+        </Item>
+        <Item type="CScenarioPointRegionDef">
+            <Name>dlc_fpmrsa:/%PLATFORM%/levels/gta5/scenario/fpems_mrsa_countryside_ne</Name>
+            <AABB>
+                <min x="1899.52063" y="4371.59668" z="31.8881855"/>
+                <max x="2797.601" y="6176.09375" z="310"/>
+            </AABB>
+        </Item>
+        <Item type="CScenarioPointRegionDef">
+            <Name>dlc_fpmrsa:/%PLATFORM%/levels/gta5/scenario/fpems_mrsa_countryside_n</Name>
+            <AABB>
+                <min x="-332.583771" y="6167.56" z="30.218008"/>
+                <max x="15.1791534" y="6492.761" z="44.1330261"/>
+            </AABB>
+        </Item>
+    </RegionDefs>
+    <Groups>
+        <Item type="CScenarioPointGroup">
+            <Name>fpmrsa_general_ambience</Name>
+            <EnabledByDefault value="true"/>
+        </Item>
+        <Item type="CScenarioPointGroup">
+            <Name>fpmrsa_emergency_responses</Name>
+            <EnabledByDefault value="true"/>
+        </Item>
+        <Item type="CScenarioPointGroup">
+            <Name>fpmrsa_special_events</Name>
+            <EnabledByDefault value="true"/>
+        </Item>
+        <Item type="CScenarioPointGroup">
+            <Name>fpmrsa_special_vehicles</Name>
+            <EnabledByDefault value="true"/>
+        </Item>
+        <Item type="CScenarioPointGroup">
+            <Name>fpmrsa_animals</Name>
+            <EnabledByDefault value="true"/>
+        </Item>
+    </Groups>
+    <InteriorNames/>
+</CScenarioPointManifest>

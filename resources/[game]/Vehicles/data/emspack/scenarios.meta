@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CScenarioInfoManager>
+    <Scenarios>
+        <!-- world_human_piss by Cass -->
+        <Item type="CScenarioPlayAnimsInfo">
+            <Name>WORLD_HUMAN_PISS</Name>
+            <PropName/>
+            <Models ref="NULL"/>
+            <BlockedModels ref="FATTIES"/>
+            <SpawnProbability value="0.800000"/>
+            <SpawnInterval value="0"/>
+            <SpawnHistoryRange value="50.000000"/>
+            <MaxNoInRange value="0"/>
+            <PropEndOfLifeTimeoutMS value="60000"/>
+            <Range value="0.000000"/>
+            <SpawnPropIntroDict/>
+            <SpawnPropIntroAnim/>
+            <StationaryReactHash>CODE_HUMAN_COWER</StationaryReactHash>
+            <SpawnPropOffset x="0.000000" y="0.000000" z="0.000000"/>
+            <SpawnPropRotation x="0.000000" y="0.000000" z="0.000000" w="0.000000"/>
+            <TimeTilPedLeaves value="30.000000"/>
+            <ChanceOfRunningTowards value="1.000000"/>
+            <Flags>DoSimpleBlendoutForEvents EnableKinematicPhysicsForPed QuickExitsFromHassling WillAttractPeds IgnoreShockingPedRunOverEvent IgnoreLowShockingEvents IgnorePavementChecks IgnoreNavMesh ValidateExitsWithProbeChecks</Flags>
+            <Condition type="CScenarioConditionRaining">
+                <Result>False</Result>
+            </Condition>
+            <ConditionalAnimsGroup>
+                <Name>WORLD_HUMAN_PISS</Name>
+                <ConditionalAnims>
+                    <Item>
+                        <Name>WORLD_HUMAN_PISS</Name>
+                        <PropSet/>
+                        <Flags/>
+                        <Probability value="100.000000"/>
+                        <SpecialConditionProbability value="0.000000"/>
+                        <SpecialCondition type="NULL"/>
+                        <NextIdleTime value="0.000000"/>
+                        <ChanceOfSpawningWithAnything value="1.000000"/>
+                        <BlendInDelta value="8.000000"/>
+                        <BlendOutDelta value="-8.000000"/>
+                        <GestureClipSetId/>
+                        <VFXData/>
+                        <VFXCullRange value="50.000000"/>
+                        <TransitionInfo type="NULL"/>
+                        <Conditions>
+                            <Item type="CScenarioConditionIsMale">
+                                <Result>True</Result>
+                            </Item>
+                        </Conditions>
+                        <LowLodBaseAnim/>
+                        <BaseAnims>
+                            <Item type="CConditionalClipSet">
+                                <ClipSet>AMB@WORLD_PISS_BASE</ClipSet>
+                                <AssociatedSpeech/>
+                                <Conditions/>
+                                <ActionFlags/>
+                            </Item>
+                        </BaseAnims>
+                        <Enters>
+                            <Item type="CConditionalClipSet">
+                                <ClipSet>AMB@WORLD_PISS_ENTER</ClipSet>
+                                <AssociatedSpeech/>
+                                <Conditions/>
+                                <ActionFlags/>
+                            </Item>
+                        </Enters>
+                        <Exits/>
+                        <!-- <Exits>
+<Item type="CConditionalClipSet">
+<ClipSet>AMB@WORLD_PISS_EXIT</ClipSet>
+<AssociatedSpeech />
+<Conditions />
+<ActionFlags />
+</Item>
+</Exits> -->
+                        <Variations/>
+                        <Reactions/>
+                        <PanicBaseAnims/>
+                        <PanicIntros/>
+                        <PanicOutros/>
+                        <PanicVariations/>
+                        <PanicExits/>
+                    </Item>
+                </ConditionalAnims>
+            </ConditionalAnimsGroup>
+            <CameraNameHash/>
+            <IntroBlendInDuration value="0.500000"/>
+            <OutroBlendInDuration value="0.500000"/>
+            <OutroBlendOutDuration value="0.250000"/>
+            <ImmediateExitBlendOutDuration value="0.500000"/>
+            <PanicExitBlendInDuration value="0.125000"/>
+            <PedCapusleOffset x="0.000000" y="0.000000" z="0.000000"/>
+            <PedCapsuleRadiusOverride value="-1.000000"/>
+            <ReassessGroundExitThreshold value="-1.000000"/>
+            <FallExitThreshold value="-1.000000"/>
+            <eLookAtImportance>MEDIUM</eLookAtImportance>
+            <SeatedOffset x="0.000000" y="0.000000" z="0.000000"/>
+            <WanderScenarioToUseAfter/>
+        </Item>
+        <!-- addon scenarios -->
+        <Item type="CScenarioPlayAnimsInfo">
+            <Name>WORLD_HUMAN_WRITHING</Name>
+            <PropName/>
+            <Models ref="NULL"/>
+            <BlockedModels ref="FATTIES"/>
+            <SpawnProbability value="1.000000"/>
+            <SpawnInterval value="0"/>
+            <SpawnHistoryRange value="50.000000"/>
+            <MaxNoInRange value="0"/>
+            <PropEndOfLifeTimeoutMS value="60000"/>
+            <Range value="0.000000"/>
+            <SpawnPropIntroDict/>
+            <SpawnPropIntroAnim/>
+            <StationaryReactHash/>
+            <SpawnPropOffset x="0.000000" y="0.000000" z="0.000000"/>
+            <SpawnPropRotation x="0.000000" y="0.000000" z="0.000000" w="0.000000"/>
+            <TimeTilPedLeaves value="-1.000000"/>
+            <ChanceOfRunningTowards value="0.000000"/>
+            <Flags>BlockGestures BlockLegIk CantBeReused DontTimeoutUntilIdleFinishes EnableKinematicPhysicsForPed NoBulkyItems UseNMGetupWhenExiting DisableAgitation DisableSpeaking SpawnMalePedsOnly</Flags>
+            <ConditionalAnimsGroup>
+                <Name>WORLD_HUMAN_WRITHING</Name>
+                <ConditionalAnims>
+                    <Item>
+                        <Name>WORLD_HUMAN_WRITHING</Name>
+                        <PropSet/>
+                        <Flags/>
+                        <Probability value="100.000000"/>
+                        <SpecialConditionProbability value="0.000000"/>
+                        <SpecialCondition type="NULL"/>
+                        <NextIdleTime value="4.000000"/>
+                        <ChanceOfSpawningWithAnything value="1.000000"/>
+                        <BlendInDelta value="8.000000"/>
+                        <BlendOutDelta value="-8.000000"/>
+                        <GestureClipSetId/>
+                        <VFXData/>
+                        <VFXCullRange value="25.000000"/>
+                        <TransitionInfo type="NULL"/>
+                        <Conditions/>
+                        <LowLodBaseAnim/>
+                        <BaseAnims>
+                            <Item type="CConditionalClipSet">
+                                <ClipSet>amb@world_human_writhing@base</ClipSet>
+                                <AssociatedSpeech/>
+                                <Conditions/>
+                                <ActionFlags/>
+                            </Item>
+                        </BaseAnims>
+                        <Enters/>
+                        <Exits>
+                            <Item type="CConditionalClipSet">
+                                <ClipSet>amb@world_human_writhing@death_from_writhe</ClipSet>
+                                <AssociatedSpeech/>
+                                <Conditions>
+                                    <Item type="CScenarioConditionAmbientEventTypeCheck">
+                                        <Result>True</Result>
+                                        <Type>AET_Threatened</Type>
+                                    </Item>
+                                </Conditions>
+                                <ActionFlags/>
+                            </Item>
+                        </Exits>
+                        <Variations>
+                            <Item type="CConditionalClipSet">
+                                <ClipSet>amb@world_human_writhing@idles_a</ClipSet>
+                                <AssociatedSpeech/>
+                                <Conditions/>
+                                <ActionFlags/>
+                            </Item>
+                            <Item type="CConditionalClipSet">
+                                <ClipSet>amb@world_human_writhing@idles_b</ClipSet>
+                                <AssociatedSpeech/>
+                                <Conditions>
+                                    <Item type="CScenarioConditionHealth">
+                                        <Result>True</Result>
+                                        <Health>Weak</Health>
+                                    </Item>
+                                </Conditions>
+                                <ActionFlags/>
+                            </Item>
+                            <Item type="CConditionalClipSet">
+                                <ClipSet>amb@world_human_writhing@idles_c</ClipSet>
+                                <AssociatedSpeech/>
+                                <Conditions>
+                                    <Item type="CScenarioConditionHealth">
+                                        <Result>True</Result>
+                                        <Health>Strong</Health>
+                                    </Item>
+                                </Conditions>
+                                <ActionFlags/>
+                            </Item>
+                        </Variations>
+                        <Reactions/>
+                        <PanicBaseAnims/>
+                        <PanicIntros/>
+                        <PanicOutros/>
+                        <PanicVariations/>
+                        <PanicExits/>
+                    </Item>
+                </ConditionalAnims>
+            </ConditionalAnimsGroup>
+            <CameraNameHash/>
+            <IntroBlendInDuration value="0.500000"/>
+            <OutroBlendInDuration value="0.500000"/>
+            <OutroBlendOutDuration value="0.250000"/>
+            <ImmediateExitBlendOutDuration value="0.500000"/>
+            <PanicExitBlendInDuration value="0.125000"/>
+            <PedCapusleOffset x="0.000000" y="0.000000" z="0.000000"/>
+            <PedCapsuleRadiusOverride value="-1.000000"/>
+            <ReassessGroundExitThreshold value="-1.000000"/>
+            <FallExitThreshold value="-1.000000"/>
+            <eLookAtImportance>HIGH</eLookAtImportance>
+            <SeatedOffset x="0.000000" y="0.000000" z="0.000000"/>
+            <WanderScenarioToUseAfter/>
+        </Item>
+
+        <!--
+        <Item type="CScenarioPlayAnimsInfo">
+            <Name>PROP_HUMAN_MEDIC_STRETCHER</Name>
+            <PropName/>
+            <Models ref="MEDIC"/>
+            <BlockedModels ref="NULL"/>
+            <SpawnProbability value="1.000000"/>
+            <SpawnInterval value="0"/>
+            <SpawnHistoryRange value="50.000000"/>
+            <MaxNoInRange value="1"/>
+            <PropEndOfLifeTimeoutMS value="60000"/>
+            <Range value="30.000000"/>
+            <SpawnPropIntroDict/>
+            <SpawnPropIntroAnim/>
+            <StationaryReactHash>CODE_HUMAN_COWER</StationaryReactHash>
+            <SpawnPropOffset x="0.000000" y="0.000000" z="0.000000"/>
+            <SpawnPropRotation x="0.000000" y="0.000000" z="0.000000" w="0.000000"/>
+            <TimeTilPedLeaves value="-1.000000"/>
+            <ChanceOfRunningTowards value="0.000000"/>
+            <Flags>AttachPed BlockGestures DontSpawnInRain DontTimeoutUntilIdleFinishes DoSimpleBlendoutForEvents EnableKinematicPhysicsForPed ForceModel NavmeshBlocking QuickExitsFromHassling SpawnMalePedsOnly</Flags>
+            <Condition type="CScenarioConditionRaining">
+                <Result>False</Result>
+            </Condition>
+            <ConditionalAnimsGroup>
+                <Name>PROP_HUMAN_MEDIC_STRETCHER</Name>
+                <ConditionalAnims>
+                    <Item>
+                        <Name>PROP_HUMAN_MEDIC_STRETCHER</Name>
+                        <PropSet/>
+                        <Flags/>
+                        <Probability value="100.000000"/>
+                        <SpecialConditionProbability value="0.000000"/>
+                        <SpecialCondition type="NULL"/>
+                        <NextIdleTime value="2.000000"/>
+                        <ChanceOfSpawningWithAnything value="1.000000"/>
+                        <BlendInDelta value="8.000000"/>
+                        <BlendOutDelta value="-8.000000"/>
+                        <GestureClipSetId/>
+                        <VFXData/>
+                        <VFXCullRange value="25.000000"/>
+                        <TransitionInfo type="NULL"/>
+                        <Conditions/>
+                        <LowLodBaseAnim/>
+                        <BaseAnims>
+                            <Item type="CConditionalClipSet">
+                                <ClipSet>AMB@PROP_HUMAN_MEDIC_STRETCHER@BASE</ClipSet>
+                                <AssociatedSpeech/>
+                                <Conditions/>
+                                <ActionFlags/>
+                            </Item>
+                        </BaseAnims>
+                        <Enters>
+                            <Item type="CConditionalClipSet">
+                                <ClipSet>AMB@PROP_HUMAN_MEDIC_STRETCHER@ENTER</ClipSet>
+                                <AssociatedSpeech/>
+                                <Conditions/>
+                                <ActionFlags/>
+                            </Item>
+                        </Enters>
+                        <Exits/>
+                        <Variations>
+                            <Item type="CConditionalClipSet">
+                                <ClipSet>AMB@PROP_HUMAN_MEDIC_STRETCHER@IDLES_A</ClipSet>
+                                <AssociatedSpeech/>
+                                <Conditions/>
+                                <ActionFlags/>
+                            </Item>
+                        </Variations>
+                        <Reactions/>
+                        <PanicBaseAnims/>
+                        <PanicIntros/>
+                        <PanicOutros/>
+                        <PanicVariations/>
+                        <PanicExits/>
+                    </Item>
+                </ConditionalAnims>
+            </ConditionalAnimsGroup>
+            <CameraNameHash/>
+            <IntroBlendInDuration value="0.500000"/>
+            <OutroBlendInDuration value="0.500000"/>
+            <OutroBlendOutDuration value="0.250000"/>
+            <ImmediateExitBlendOutDuration value="0.500000"/>
+            <PanicExitBlendInDuration value="0.125000"/>
+            <PedCapusleOffset x="0.000000" y="0.000000" z="0.000000"/>
+            <PedCapsuleRadiusOverride value="-1.000000"/>
+            <ReassessGroundExitThreshold value="-1.000000"/>
+            <FallExitThreshold value="-1.000000"/>
+            <eLookAtImportance>LOW</eLookAtImportance>
+            <SeatedOffset x="0.000000" y="0.000000" z="0.000000"/>
+            <WanderScenarioToUseAfter/>
+        </Item>
+        -->
+    </Scenarios>
+    <ScenarioTypeGroups/>
+</CScenarioInfoManager>

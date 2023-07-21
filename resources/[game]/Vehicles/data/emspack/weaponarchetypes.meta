@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+    <InitDatas>
+        <Item>
+            <modelName>w_am_medbag</modelName>
+            <txdName>w_am_medbag</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="30"/>
+        </Item>
+        <Item>
+            <modelName>w_me_organ</modelName>
+            <txdName>w_me_organ</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="30"/>
+        </Item>
+    </InitDatas>
+</CWeaponModelInfo__InitDataList>

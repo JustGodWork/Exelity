@@ -1,0 +1,380 @@
+<?xml version="1.0"?>
+<CVehicleModelInfoVariation>
+  <variationData>
+		<Item>
+      <modelName>police6</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            111
+            0
+            156
+			3
+			3	
+          </indices>
+          <liveries />
+        </Item>
+      </colors>
+	  <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="1" />
+      <sirenSettings value="223" />
+    </Item>
+		<Item>
+      <modelName>police6a</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            0
+            11
+            156
+            3
+            3
+          </indices>
+          <liveries/>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            2
+            2
+            134
+            156
+            99
+            99
+          </indices>
+          <liveries/>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            75
+            75
+            157
+            156
+            153
+            153
+          </indices>
+          <liveries/>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            7
+            7
+            134
+            0
+            99
+            99
+          </indices>
+          <liveries/>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            34
+            34
+            45
+            0
+            3
+            3
+          </indices>
+          <liveries/>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            0
+            0
+            2
+            0
+            153
+            153
+          </indices>
+          <liveries/>
+        </Item>
+      </colors>
+	  <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="160"/>
+      <sirenSettings value="224"/>
+    </Item>
+		<Item>
+    <modelName>police6b</modelName>
+    <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            111
+            0
+            156
+			153
+			153
+          </indices>
+          <liveries />
+        </Item>
+      </colors>
+	  <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="160" />
+      <sirenSettings value="224" />
+    </Item>
+		<Item>
+      <modelName>police6c</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            111
+            0
+            156
+			99
+			99	
+          </indices>
+          <liveries />
+        </Item>
+      </colors>
+	  <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="224" />
+    </Item>
+		<Item>
+    <modelName>police6d</modelName>
+    <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            111
+            0
+            156
+			3
+			3	
+          </indices>
+          <liveries />
+        </Item>
+      </colors>
+	  <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="160" />
+      <sirenSettings value="223" />
+    </Item>
+		<Item>
+      <modelName>police6e</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            111
+            0
+            0
+			111
+			111
+          </indices>
+          <liveries />
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="223" />
+    </Item>
+	<Item>
+      <modelName>police6f</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            111
+            0
+            156
+			14
+			14	
+          </indices>
+          <liveries />
+        </Item>
+      </colors>
+	  <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="1" />
+      <sirenSettings value="223" />
+    </Item>
+	<Item>
+      <modelName>police6g</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            111
+            0
+            156
+			153
+			153	
+          </indices>
+          <liveries />
+        </Item>
+		<Item>
+          <indices content="char_array">
+            0
+            111
+            0
+            156
+			14
+			14	
+          </indices>
+          <liveries />
+        </Item>
+		<Item>
+          <indices content="char_array">
+            0
+            111
+            0
+            156
+			106
+			106	
+          </indices>
+          <liveries />
+        </Item>
+      </colors>
+	  <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="1" />
+      <sirenSettings value="224" />
+    </Item>
+  <Item>
+      <modelName>police6h</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            111
+            0
+            0
+			111
+			111	
+          </indices>
+          <liveries />
+        </Item>
+      </colors>
+	  <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="23" />
+      <sirenSettings value="223" />
+    </Item>
+	<Item>
+      <modelName>police6i</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0
+            111
+            0
+            4
+			111
+			111	
+          </indices>
+          <liveries />
+        </Item>
+      </colors>
+	  <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="224" />
+    </Item>
+  </variationData>
+</CVehicleModelInfoVariation>

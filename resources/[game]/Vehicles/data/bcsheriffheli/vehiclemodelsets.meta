@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CAmbientModelSets>
+  <ModelSets>
+    <Item type="CAmbientModelSet">
+      <Name>SHERIFF_CAR_BC</Name>
+      <Models>
+		<Item>
+          <Name>bcsheriffalamo</Name>
+          <Variations type="NULL" />
+          <Probability value="0.20000" />
+        </Item>
+		<Item>
+          <Name>bcsheriffbison</Name>
+          <Variations type="NULL" />
+          <Probability value="0.050000" />
+        </Item>
+		<Item>
+          <Name>bcsheriffyos</Name>
+          <Variations type="NULL" />
+          <Probability value="0.050000" />
+        </Item>
+		<Item>
+          <Name>bcsheriffscout</Name>
+          <Variations type="NULL" />
+          <Probability value="0.700000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>SHERIFF_VAN_BC</Name>
+      <Models>
+        <Item>
+          <Name>bcsheriffswat</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>SHERIFF_HELI_BC</Name>
+      <Models>
+        <Item>
+          <Name>bcsheriffheli</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+  </ModelSets>
+</CAmbientModelSets>

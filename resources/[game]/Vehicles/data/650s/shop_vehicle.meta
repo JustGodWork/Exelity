@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ShopVehicleDataArray>
+	<Vehicles>
+
+		<Item>
+			<lockHash>CU_VEH_570s</lockHash>
+			<modelNameHash>570s</modelNameHash>
+			<cost value="100"/>
+			<textLabel>570s</textLabel>
+			<vehicleMods></vehicleMods>
+		</Item>
+		<Item>
+			<lockHash>CU_VEH_650s</lockHash>
+			<modelNameHash>650s</modelNameHash>
+			<cost value="100"/>
+			<textLabel>650s</textLabel>
+			<vehicleMods></vehicleMods>
+		</Item>
+		
+
+	</Vehicles>	
+</ShopVehicleDataArray>
