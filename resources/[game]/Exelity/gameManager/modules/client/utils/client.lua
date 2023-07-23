@@ -66,7 +66,6 @@ Citizen.CreateThread( function()
 		if (not IsInPVP) then
 			if jumpDisabled and resetCounter > 0 and IsPedJumping(PlayerPedId()) and not (GetPedParachuteState(PlayerPedId()) == 1)then
 				SetPedToRagdoll(PlayerPedId(), 500, 500, 3, 0, 0, 0)
-				ESX.ShowAdvancedNotification('Notification', 'Exelity', "Pourquoi tu saute autant petit lapin ?", 'CHAR_KIRINSPECTEUR', 2)
 				resetCounter = 0
 			end
 
