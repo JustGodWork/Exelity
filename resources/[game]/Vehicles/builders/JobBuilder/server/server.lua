@@ -246,8 +246,7 @@ Citizen.CreateThread(function()
 				ESX.RemoveSocietyMoney(societyName, amount);
 				xPlayer.addAccountMoney('cash', amount)
 				TriggerClientEvent('esx:showNotification', _src, "Vous avez retiré ~g~$"..ESX.Math.GroupDigits(amount))
-				--JobBuilderLogs("[Entreprise Payante] "..GetPlayerName(_src).." a retiré "..amount.." de l'entreprise "..societyName.."")
-				SendLogs("Entreprise", "SweetyLife | JobBuilder", "Le joueur **"..xPlayer.name.."** (***"..xPlayer.identifier.."***) a retiré "..amount.."$ dans le coffre de l'entreprise "..society.."", "https://discord.com/api/webhooks/1126198207039410206/4Ra1GWKDA9jUPmBysFXnWt0hfccNFIsPoIwKV-iWnaOP5sqGtDT2r_4G2O6MiJN1g_01")
+				-- TODO : Send Logs
 			else
 				TriggerClientEvent('esx:showNotification', _src, "Montant invalide")
 			end
@@ -268,8 +267,7 @@ Citizen.CreateThread(function()
 						ESX.AddSocietyMoney(societyName, amount);
 						xPlayer.removeAccountMoney('cash', amount)
 						TriggerClientEvent('esx:showNotification', _src, "Vous avez déposé ~g~$"..ESX.Math.GroupDigits(amount))
-						--JobBuilderLogs("[Entreprise Payante] "..GetPlayerName(_src).." a déposé "..amount.." dans l'entreprise "..societyName.."")
-						SendLogs("Entreprise", "SweetyLife | JobBuilder", "Le joueur **"..xPlayer.name.."** (***"..xPlayer.identifier.."***) a déposé "..amount.."$ dans le coffre de l'entreprise "..society.."", "https://discord.com/api/webhooks/1126198207039410206/4Ra1GWKDA9jUPmBysFXnWt0hfccNFIsPoIwKV-iWnaOP5sqGtDT2r_4G2O6MiJN1g_01")
+						-- TODO : Send Logs
 					end
 
 				else
@@ -439,8 +437,7 @@ Citizen.CreateThread(function()
 					inventory.removeItem(itemName, count);
 					xPlayer.addInventoryItem(itemName, count);
 					TriggerClientEvent('esx:showAdvancedNotification', _source, 'Coffre', '~b~Informations~s~', 'Vous avez retiré ~b~'..inventoryItem.label.." x"..count, 'CHAR_KIRINSPECTEUR', 8)
-					--JobBuilderLogs("[Entreprise Payante] "..GetPlayerName(_source).." a retiré x"..count.." "..inventoryItem.label.." dans le coffre de l'entreprise "..society.."")
-					SendLogs("Entreprise", "SweetyLife | JobBuilder", "Le joueur **"..xPlayer.name.."** (***"..xPlayer.identifier.."***) a retiré x"..count.." "..inventoryItem.label.." dans le coffre de l'entreprise "..society.."", "https://discord.com/api/webhooks/1126198207039410206/4Ra1GWKDA9jUPmBysFXnWt0hfccNFIsPoIwKV-iWnaOP5sqGtDT2r_4G2O6MiJN1g_01")
+					-- TODO : Send Logs
 				else
 					TriggerClientEvent('esx:showAdvancedNotification', _source, 'Coffre', '~b~Informations~s~', "Vous n'avez pas assez de place", 'CHAR_KIRINSPECTEUR', 9)
 				end
@@ -471,8 +468,7 @@ Citizen.CreateThread(function()
 				xPlayer.removeInventoryItem(itemName, count)
 				inventory.addItem(itemName, count)
 				TriggerClientEvent('esx:showAdvancedNotification', _src, 'Coffre', '~b~Informations~s~', 'Vous avez déposé ~b~'..inventoryItem.label.." x"..count, 'CHAR_KIRINSPECTEUR', 8)
-				--JobBuilderLogs("[Entreprise Payante] "..GetPlayerName(_src).." a déposé x" ..count.. " "..inventoryItem.label.." dans le coffre de l'entreprise "..society.."")
-				SendLogs("Entreprise", "SweetyLife | JobBuilder", "Le joueur **"..xPlayer.name.."** (***"..xPlayer.identifier.."***) a déposé x"..count.." "..inventoryItem.label.." dans le coffre de l'entreprise "..society.."", "https://discord.com/api/webhooks/1126198207039410206/4Ra1GWKDA9jUPmBysFXnWt0hfccNFIsPoIwKV-iWnaOP5sqGtDT2r_4G2O6MiJN1g_01")
+				-- TODO : Send Logs
 			else
 				TriggerClientEvent('esx:showAdvancedNotification', _src, 'Coffre', '~b~Informations~s~', "Quantité ~r~invalide", 'CHAR_KIRINSPECTEUR', 9)
 			end
@@ -586,7 +582,7 @@ function SendLogs(name, title, message, web)
 			["type"]= "rich",
 			["color"] = 33235,
 			["footer"]=  {
-			["text"]= "Powered by SweetyLife ©   |  "..local_date.."",
+			["text"]= "Powered ©   |  "..local_date.."",
 			},
 		}
 	}
