@@ -14,7 +14,7 @@
 --]]
 
 ---@type Vehicle
-Vehicle = Class.new(function(class) 
+Vehicle = Class.new(function(class)
 
     ---@class Vehicle: BaseObject
     local self = class;
@@ -57,32 +57,30 @@ Vehicle = Class.new(function(class)
 
     end
 
-    ---@param handle number
-    ---@param callback fun(handle: number)
-    function self:Request(handle, callback)
-        CreateThread(function()
-            while not DoesEntityExist(handle) do Wait(200); end
-
-            self.handle = handle;
-            SetEntityDistanceCullingRadius(self.handle, 25000);
-
-            while not NetworkGetNetworkIdFromEntity(handle) do Wait(200); end
-
-            self.networkId = NetworkGetNetworkIdFromEntity(handle);
-
-            if (self.plate ~= nil) then
-                SetVehicleNumberPlateText(handle, self.plate);
-            else
-                self.plate = GetVehicleNumberPlateText(handle);
-            end
-            if (callback) then callback(handle); end
-        end);
-    end
-
     ---@param callback fun(handle: number)
     function self:Spawn(callback)
-        local vehicle = CreateVehicle(self.model, self.position.x or 0, self.position.y or 0, self.position.z or 0, self.heading or 0, true, true);
-        self:Request(vehicle, callback);
+
+        local vehicle;
+        local event;
+
+        event = AddEventHandler('entityCreated', function (entity)
+            if (entity == vehicle) then
+                RemoveEventHandler(event);
+                self.handle = vehicle;
+                SetEntityDistanceCullingRadius(self.handle, 25000);
+                self.networkId = NetworkGetNetworkIdFromEntity(vehicle);
+
+                if (self.plate ~= nil) then
+                    SetVehicleNumberPlateText(vehicle, self.plate);
+                else
+                    self.plate = GetVehicleNumberPlateText(vehicle);
+                end
+                if (callback) then callback(vehicle); end
+            end
+        end);
+
+        vehicle = CreateVehicle(self.model, self.position.x or 0, self.position.y or 0, self.position.z or 0, self.heading or 0, true, true);
+
     end
 
     ---@return number
@@ -105,14 +103,10 @@ Vehicle = Class.new(function(class)
     ---@param callback fun(properties: table)
     function self:RequestProperties(xPlayer, callback)
 
-        self.properties = nil;
-
         self:OnPropertiesUpdate(function()
-
             if (callback) then callback(self:GetProperties()); end
-
         end);
-        
+
         Shared.Events:ToClient(xPlayer, Enums.Vehicles.Events.RequestProperties, self:GetPlate(), self:GetNetworkId());
 
     end
@@ -127,12 +121,15 @@ Vehicle = Class.new(function(class)
     ---@param xPlayer xPlayer
     ---@param callback fun(properties: table)
     function self:SetProperties(properties, xPlayer, callback)
-        Shared.Events:ToClient(xPlayer.source, Enums.Vehicles.Events.SetProperties, self:GetPlate(), self:GetNetworkId(), properties or self.properties);
+
+        if (type(properties) == 'table') then
+            properties["plate"] = self:GetPlate();
+            properties["model"] = self.model;
+            Shared.Events:ToClient(xPlayer.source, Enums.Vehicles.Events.SetProperties, self:GetPlate(), self:GetNetworkId(), properties);
+        end;
 
         self:OnPropertiesUpdate(function()
-
             if (callback) then callback(self:GetProperties()); end
-
         end);
 
     end
@@ -147,17 +144,17 @@ Vehicle = Class.new(function(class)
             if (plate == self:GetPlate()) then
 
                 self.properties = properties;
+                local plate = self:GetPlate();
+                local model = self.model;
 
-                if (not self.properties or self.properties and Shared.Table:SizeOf(self.properties) == 0) then self.properties = nil; end
-
-                if (self.properties) then
-                    self.properties["plate"] = self:GetPlate();
+                if (type(properties) == 'table' and Shared.Table:SizeOf(properties) > 0) then
+                    self.properties = properties;
+                    self.properties["plate"] = plate;
+                    self.properties["model"] = model;
                 end
 
                 if (callback) then
-
                     callback(xPlayer, self:GetProperties());
-
                 end
 
             end
@@ -171,7 +168,11 @@ Vehicle = Class.new(function(class)
     ---Save properties of the vehicle
     ---@param properties table
     function self:SaveProperties(properties)
+        local plate = self:GetPlate();
+        local model = self.model;
         self.properties = properties;
+        self.properties["plate"] = plate;
+        self.properties["model"] = model;
     end
 
     ---@param bool boolean
