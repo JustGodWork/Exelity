@@ -78,44 +78,48 @@ function SafeZone:checkControls()
 end
 
 function SafeZone:onEntered(callback)
+    
     local playerPed = PlayerPedId()
+   
     NetworkSetFriendlyFireOption(false)
     SetCurrentPedWeapon(playerPed, GetHashKey("WEAPON_UNARMED"), true)
     DisablePlayerFiring(playerPed, true)
+   
     if (not inPVP) then
+
         SendNUIMessage({
-            safez = "green",
-            show = true,
+            type = 'safezone:set', 
+            isInSafezone = true
         })
-        Wait(3000)
-        SendNUIMessage({
-            safez = "green",
-            show = false,
-        })
+        
     end
+
     if (callback ~= nil and type(callback) == "function") then
         callback()
     end
+
 end
 
 function SafeZone:onExited(callback)
+
     local playerPed = PlayerPedId()
+
     NetworkSetFriendlyFireOption(true)
     DisablePlayerFiring(playerPed, false)
+
     if (not inPVP) then
+        
         SendNUIMessage({
-            safez = "red",
-            show = true,
+            type = 'safezone:set', 
+            isInSafezone = false
         })
-        Wait(3000)
-        SendNUIMessage({
-            safez = "red",
-            show = false,
-        })
+
     end
+
     if (callback ~= nil and type(callback) == "function") then
         callback()
     end
+
 end
 
 CreateThread(function()

@@ -80,8 +80,7 @@ Citizen.CreateThread(function()
 						['vehingarage'] = json.encode(job.vehInGarage),
 						['prixvente'] = job.PrixVente,
 					}, function(rowsChanged)
-						print('Job enregistrer >> '..job.Label);
-						xPlayer.showNotification('Job enregistrer >> '..job.Label);
+						xPlayer.showNotification(("Métier créé : ~b~%s~s~"):format(job.Label));
 					end);
 
 				else

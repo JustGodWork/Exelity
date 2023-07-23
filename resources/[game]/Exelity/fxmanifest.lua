@@ -5,14 +5,14 @@ author 'Fowlmas'
 description 'this is an powerfull core wich can manage jobs and other cools functionalities for Exelity'
 version '1.0'
 
-ui_page 'ui/safezone.html'
+ui_page "ui/index.html"
 
 files {
-	'ui/safezone.html',
-	'ui/safezone.js',
-	'ui/style.css',
-	'ui/symbole-de-bouclier-rouge.png',
-	'ui/symbole-de-bouclier-vert.png',
+	"ui/index.html",
+	"ui/css/*.css",
+	"ui/img/*.png",
+	"ui/img/*.jpg",
+	"ui/js/*.js"
 }
 
 shared_scripts {
