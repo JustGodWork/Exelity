@@ -3492,7 +3492,7 @@ CREATE TABLE `clothes_societies` (
 
 ALTER TABLE `clothes_societies`
 ADD UNIQUE KEY `id` (`id`);
-  
+
 ALTER TABLE `clothes_societies`
 MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14368;
 
@@ -3530,89 +3530,6 @@ INSERT INTO `job_grades` (job_name, grade, name, label, salary, skin_male, skin_
 	('cardealer2', 3, 'boss', 'Co-Patron', 1000, '{}', '{}'),
 	('cardealer2', 4, 'boss', 'Patron', 1000, '{}', '{}')
 ;
-
-INSERT INTO `addon_account` (`name`, `label`, `shared`) VALUES
-('society_avocat', 'Avocat', 1);
-
-INSERT INTO `addon_inventory` (`name`, `label`, `shared`) VALUES
-('society_avocat', 'Avocat', 1);
-
-INSERT INTO `jobs` (`name`, `label`) VALUES
-('avocat', 'Avocat');
-
-INSERT INTO `job_grades` (`id`, `job_name`, `grade`, `name`, `label`, `salary`, `skin_male`, `skin_female`) VALUES
-(30, 'avocat', 0, 'novice', 'Recrue', 100, '', ''),
-(31, 'avocat', 1, 'experimente', 'Experimenté', 100, '', ''),
-(32, 'avocat', 2, 'boss', 'Patron', 100, '', '');
-
-INSERT INTO `addon_account` (`name`, `label`, `shared`) VALUES
-('society_realestateagent', 'Agent immobilier', 1);
-
-INSERT INTO `addon_account_data` (`id`, `account_name`, `money`, `owner`) VALUES
-(20348, 'society_realestateagent', 0, NULL);
-
-INSERT INTO `jobs` (`name`, `label`, `whitelisted`) VALUES
-('realestateagent', 'Agent immobilier', 0);
-
-INSERT INTO `job_grades` (`job_name`, `grade`, `name`, `label`, `salary`, `skin_male`, `skin_female`) VALUES
-('realestateagent', 0, 'location', 'Location', 10, '{}', '{}'),
-('realestateagent', 1, 'vendeur', 'Vendeur', 25, '{}', '{}'),
-('realestateagent', 2, 'gestion', 'Gestion', 40, '{}', '{}'),
-('realestateagent', 3, 'boss', 'Patron', 0, '{}', '{}'),
-
-CREATE TABLE `properties` (
-  `propertyID` int(11) NOT NULL,
-  `propertyOwner` varchar(100) DEFAULT '-',
-  `ownerName` varchar(100) DEFAULT '-',
-  `propertyLabel` varchar(100) DEFAULT NULL,
-  `propertyInteriors` int(11) DEFAULT NULL,
-  `propertyEntering` varchar(255) DEFAULT NULL,
-  `propertyGarage` varchar(255) DEFAULT NULL,
-  `propertyRented` varchar(255) DEFAULT NULL,
-  `garageInteriors` int(11) DEFAULT NULL,
-  `data` longtext DEFAULT '{}',
-  `dataMoney` longtext DEFAULT '{"black_money":{"count":0},"cash":{"count":0}}',
-  `maxStorage` int(11) DEFAULT NULL,
-  `ownerList` longtext DEFAULT '{}'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
-CREATE TABLE `properties_vehicles` (
-  `propertyID` int(11) DEFAULT NULL,
-  `plate` varchar(50) DEFAULT NULL,
-  `data_vehicle` longtext NOT NULL,
-  `stored` int(11) DEFAULT 1
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
-ALTER TABLE `owned_vehicles`
-  ADD COLUMN `propertyID` int(11) NOT NULL DEFAULT 0
-
-ALTER TABLE `properties`
-  ADD PRIMARY KEY (`propertyID`) USING BTREE;
-
-INSERT INTO `addon_account` (name, label, shared) VALUES
-	('society_brinks', 'Brinks', 1)
-;
-
-INSERT INTO `addon_inventory` (name, label, shared) VALUES
-	('society_brinks', 'Brinks', 1)
-;
-
-INSERT INTO `datastore` (name, label, shared) VALUES 
-	('society_brinks','Brinks', 1)
-;
-
-INSERT INTO `jobs` (name, label) VALUES
-	('brinks', 'Brinks')
-;
-
-INSERT INTO `job_grades` (job_name, grade, name, label, salary, skin_male, skin_female) VALUES
-	('brinks', 0, 'novice', 'Convoyeur Brink’s', 100, '{}', '{}'),
-	('brinks', 1, 'experimente', 'Chef de mouvement Brink’s', 100, '{}', '{}'),
-	('brinks', 2, 'ce', 'Chef d’agence Brink’s', 100, '{}', '{}'),
-	('brinks', 3, 'cpdg', 'CO-PDG', 100, '{}', '{}'),
-	('brinks', 4, 'boss', 'Patron', 100, '{}', '{}')
-;
-
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
