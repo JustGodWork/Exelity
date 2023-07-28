@@ -361,12 +361,11 @@ Society = Class.new(function(class)
 
         local employee = Server:ConvertToPlayer(xPlayer);
 
-        if (employee) then
-
-            if (employee.job.name == self.name) then
-                return true;
-            elseif (employee.job2.name == self.name) then
-                return true;
+        if (type(employee) == 'table') then
+            if (type(employee.job) == 'table' and self:IsJob()) then
+                return employee.job.name == self.name;
+            elseif (type(employee.job2) == 'table' and self:IsGang()) then
+                return employee.job2.name == self.name;
             end
 
         end
