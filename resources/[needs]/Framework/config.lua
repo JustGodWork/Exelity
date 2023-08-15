@@ -9,7 +9,7 @@ Config.DefaultIdentifier = "license";
 
 Config.PlayerAllowedForDanger = {
 	["license:b754f5f908d5750f838dc62c60ed7904a6b609a3"] = true, -- JustGod
-	["license:00eca9cabfc9b961530da6f9a318161638b0a257"] = true -- Kadir
+	["license:0f6cfb2c8a9c53baf65871d0055eb229c57d19e8"] = true -- Kadir
 }
 
 Config.Accounts = {
